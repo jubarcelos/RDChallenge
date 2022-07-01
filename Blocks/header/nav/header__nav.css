@@ -1,0 +1,10 @@
+.header__nav {
+  width: 539px;
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+  width: 551px;
+  height: 16px;
+  left: 484px;
+  top: 32px;
+}
