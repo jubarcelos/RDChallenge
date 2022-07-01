@@ -24,7 +24,9 @@
       alt="seta indicando para direita">
   </a>
 </header>
+
 <!-- Menu - dropdown -->
+
 <div class="menu">
   <div class="menu__container">
     <ul class="container__grid-one">
@@ -46,6 +48,90 @@
   </div>
 </div>
 <main class="content">
+  <section class="hero">
+    <div>
+      <h1 class="title title_large"></h1>
+      <p class="content content_large"></p>
+    </div>
+
+<!-- FORM -->
+
+    <section>
+      <h2 class="form__title">
+        Comece seus 10 dias de teste grátis do RD Station Marketing!
+      </h2>
+      <p class="form__content">
+        Comece seus 10 dias de teste grátis do RD Station Marketing!
+      </p>
+      <form class="form" action="https://app.rdstation.com.br/signup" method="POST">
+        <div>
+          <label class="form__label" for="input-name">
+            Diga, qual o seu nome?
+             <input type="text" id="input-name" placeholder="Insira seu nome" />
+          </label>
+          <label class="form__label" for="input-email">
+            Seu email de trabalho
+            <input class="form__input" type="email" id="input-email" placeholder="Insira seu e-mail" />
+          </label>
+          <label class="form__label" for="input-phone">
+            Seu telefone
+             <input class="form__input" type="text" id="input-phone" placeholder="Insira seu número de telefone com DDD" />
+          </label>
+          <label class="form__label" for="select-job">
+            Seu cargo de ocupação
+            <select name="" class="select-job">
+              <option class="form__option" disabled selected value>Selecione seu cargo</option>
+            </select>
+          </label> 
+          <label class="form__label" for="input-password">
+            Crie uma senha
+             <input type="password" id="input-password" placeholder="........" />
+          </label>
+          <label class="form__label" for="input-phone">
+            Confirme sua senha
+             <input class="form__input" type="text" id="input-confirme-password" placeholder="Branding-rd@2021*" />
+          </label>
+          <label class="form__label" for="website">
+            Qual o site da sua empresa?
+          </label>
+          <div id="website">
+            <div id="website-true">
+              <input class="form__input" id="true" class="website" type="radio" name="website" value="true"/>
+              <label for="true"class="form__label">
+                Meu site é
+                <input class="form__input form__input_radio" type="website" id="website-true" placeholder="Insira o endereço do seu site" />
+              </label>
+            </div>
+            <div id="website-false">
+              <input class="form__input form__input_radio" id="false"class="website" type="radio" name="website" value="false" />
+              <label for="false" class="form__label">Ainda não tenho site</label>
+            </div>
+          </div>
+          <ul>
+            <li>Ao criar minha conta estou de acordo com os 
+              <a href="https://legal.rdstation.com/pt-BR/rdstation-services-agreement/">
+                termos de uso
+              </a>
+              do software e 
+              <a href="https://legal.rdstation.com/pt/privacy-policy/">
+                política de privacidade
+              </a>
+              .
+            </li>
+            <li>Ao preencher o formulário, concordo em receber comunicações de acordo com meus interesses.
+            </li>
+            <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.
+            </li>
+          </ul>
+          <button disabled="true" type="submit" id="submit-btn">criar minha conta</button>
+        </div>
+      </form>
+    </section>
+    <div>
+      <h2 class="title title_medium"></h2>
+      <p class="content content_medium"></p>
+    </div>
+  </section>
 </main>
 <footer></footer>
 <script src="script.js"></script>
