@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "joi-browser": "^13.4.0"
+  }
+}
