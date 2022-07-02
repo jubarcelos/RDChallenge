@@ -1,0 +1,16 @@
+.button {
+  all: unset;
+  cursor: pointer;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+button:focus {
+  outline: #212429 3px auto;
+}

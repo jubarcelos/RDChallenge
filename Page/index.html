@@ -18,16 +18,20 @@
     <div class="header__nav_item">Menu 4</div>
     <div class="header__nav_item">Menu 5</div>
   </nav>
-  <a href="" class="button button__color_white">Button</a>
-  <a href="" class="button button__color_blue">Button
-    <img class="button__icon"src="../Assets/icons/button_indicator/right.png"
-      alt="seta indicando para direita">
-  </a>
+  <div class="header__buttons">
+    <a href="" class="button button__color_white">Button</a>
+    <a href="" class="button button__color_blue">Button
+      <img class="button__icon"src="../Assets/icons/button_indicator/right.png"
+        alt="seta indicando para direita">
+    </a>
+  </div>
 </header>
 
 <!-- Menu - dropdown -->
 
 <div class="menu">
+  <!-- <div class="menu__background">
+  </div> -->
   <div class="menu__container">
     <ul class="container__grid-one">
       <h2 class="menu__title">METODOLOGIA</h2>
@@ -50,81 +54,126 @@
 <main class="content">
   <section class="hero">
     <div>
+      <div class="hero__shape"></div>
       <h1 class="title title_large"></h1>
       <p class="content content_large"></p>
     </div>
 
 <!-- FORM -->
-
-    <section>
-      <h2 class="form__title">
-        Comece seus 10 dias de teste grátis do RD Station Marketing!
-      </h2>
-      <p class="form__content">
-        Comece seus 10 dias de teste grátis do RD Station Marketing!
-      </p>
-      <form class="form" action="https://app.rdstation.com.br/signup" method="POST">
-        <div>
-          <label class="form__label" for="input-name">
-            Diga, qual o seu nome?
-             <input type="text" id="input-name" placeholder="Insira seu nome" />
-          </label>
-          <label class="form__label" for="input-email">
-            Seu email de trabalho
-            <input class="form__input" type="email" id="input-email" placeholder="Insira seu e-mail" />
-          </label>
-          <label class="form__label" for="input-phone">
-            Seu telefone
-             <input class="form__input" type="text" id="input-phone" placeholder="Insira seu número de telefone com DDD" />
-          </label>
-          <label class="form__label" for="select-job">
-            Seu cargo de ocupação
-            <select name="" class="select-job">
-              <option class="form__option" disabled selected value>Selecione seu cargo</option>
-            </select>
-          </label> 
-          <label class="form__label" for="input-password">
-            Crie uma senha
-             <input type="password" id="input-password" placeholder="........" />
-          </label>
-          <label class="form__label" for="input-phone">
-            Confirme sua senha
-             <input class="form__input" type="text" id="input-confirme-password" placeholder="Branding-rd@2021*" />
-          </label>
-          <label class="form__label" for="website">
-            Qual o site da sua empresa?
-          </label>
-          <div id="website">
-            <div id="website-true">
-              <input class="form__input" id="true" class="website" type="radio" name="website" value="true"/>
-              <label for="true"class="form__label">
-                Meu site é
-                <input class="form__input form__input_radio" type="website" id="website-true" placeholder="Insira o endereço do seu site" />
-              </label>
-            </div>
-            <div id="website-false">
-              <input class="form__input form__input_radio" id="false"class="website" type="radio" name="website" value="false" />
-              <label for="false" class="form__label">Ainda não tenho site</label>
-            </div>
-          </div>
-          <ul>
-            <li>Ao criar minha conta estou de acordo com os 
-              <a href="https://legal.rdstation.com/pt-BR/rdstation-services-agreement/">
-                termos de uso
-              </a>
+  <section class="hero-form">
+    <h2 class="hero-form__title">
+      Comece seus 10 dias de teste grátis do RD Station Marketing!
+    </h2>
+    <p class="hero-form__content">
+        Não precisa cadastrar cartão de crédito. 😉
+    </p>
+    <div class="hero__line"></div>
+    <form 
+      class="form" 
+      action="https://app.rdstation.com.br/signup" 
+      method="POST" onSubmit="onFormSubmit()">
+      <label class="form__label" for="input-name">
+        Diga, qual o seu nome?
+      </label>
+      <input class="form__input" name="name" type="text" required="true" id="input-name" placeholder="Insira seu nome" />
+      <label class="form__label" for="input-email">
+        Seu email de trabalho
+      </label>
+      <input 
+        class="form__input" 
+        name="email" 
+        type="email" 
+        required="true" 
+        id="input-email" 
+        placeholder="Insira seu e-mail" />
+      <label class="form__label" for="input-phone">
+        Seu telefone
+      </label>
+      <input 
+        class="form__input" 
+        name="phone" type="text" 
+        required="true" id="input-phone" 
+        placeholder="Insira seu número de telefone com DDD" />
+      <label class="form__label" for="select-job">
+        Seu cargo de ocupação
+      </label> 
+      <select name="job" class="select-job" required="true">
+        <option class="form__option" disabled selected value>Selecione seu car</option>
+      </select>
+      <label class="form__label" for="input-password">
+        Crie uma senha
+      </label>
+      <input 
+        class="form__input" 
+        name="password" 
+        type="password" 
+        required="true" 
+        id="input-password" 
+        placeholder="........" />
+      <label class="form__label" for="input-phone">
+        Confirme sua senha
+      </label>
+      <input 
+        class="form__input" 
+        name="password" 
+        type="check" 
+        required="true" 
+        id="input-confirme-password"
+        placeholder="Branding-rd@2021*" />
+      <label 
+        class="form__label" 
+        for="website">
+        Qual o site da sua empresa?
+      </label>
+      <div class="form__input_radios">
+        <input 
+          class="form__input-radio" 
+          id="true" class="website" 
+          type="radio" name="website" 
+          value="true"/>
+        <label for="true" class="form__label-radio">
+          Meu site é
+        </label>
+        <input 
+          class="form__input" 
+          type="website" 
+          id="website-true" 
+          placeholder="Insira o endereço do seu site" />
+        <input 
+          class="form__input-radio"
+          id="false" 
+          class="website" 
+          type="radio"
+          name="website"
+          value="false"/>
+        <label for="true" class="form__label-radio">
+          Ainda não tenho site
+        </label>
+      </div>
+      <ul class="agreement">
+        <li>Ao criar minha conta estou de acordo com os 
+          <a class="agreement__link" href="https://legal.rdstation.com/pt-BR/rdstation-services-agreement/">
+            termos de uso
+            </a>
               do software e 
-              <a href="https://legal.rdstation.com/pt/privacy-policy/">
-                política de privacidade
-              </a>
+            <a class="agreement__link" href="https://legal.rdstation.com/pt/privacy-policy/">
+              política de privacidade
+            </a>
               .
-            </li>
-            <li>Ao preencher o formulário, concordo em receber comunicações de acordo com meus interesses.
-            </li>
-            <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.
-            </li>
-          </ul>
-          <button disabled="true" type="submit" id="submit-btn">criar minha conta</button>
-        </div>
+        </li>
+        <li>Ao preencher o formulário, concordo em receber comunicações de acordo com meus interesses.
+        </li>
+        <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.
+        </li>
+      </ul>
+      <button
+        class="button button__color_yellow"
+        disabled="true"
+        type="submit"
+        id="submit-btn"
+        disabled>
+        criar minha conta
+      </button>
       </form>
     </section>
     <div>

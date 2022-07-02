@@ -1,14 +1,12 @@
 .menu {
   list-style: none;
-  width: 100vw;
-  height: 95vh;
-  position: fixed;
-  top: 7vh;
-  left: 0;
+  position: relative;
+  width: 799px;
+  height: 195px;
   display: none;
-  z-index: 0;
   background: #FFFFFF;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 

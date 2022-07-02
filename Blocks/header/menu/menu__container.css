@@ -1,16 +1,14 @@
 .menu__container {
   max-width: 799px;
   max-height: 195px;
+  height: 80px;
   position: fixed;
-  top: 7vh;
-  left: 25vw;
-  padding: 24px;
   background-color: #FFFFFF;
-  z-index: 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-gap: 40px;
+  z-index: 2;
 }
 
 .container__grid-one {

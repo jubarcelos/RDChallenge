@@ -1,0 +1,16 @@
+.form {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 496px;
+  height: 817px;
+  left: 860px;
+  top: 1029px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #7E8A98;
+  padding: 0 24px;
+}
