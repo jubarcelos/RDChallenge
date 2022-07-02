@@ -1,8 +1,6 @@
 .menu__container {
   max-width: 799px;
   max-height: 195px;
-  height: 80px;
-  position: fixed;
   background-color: #FFFFFF;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
