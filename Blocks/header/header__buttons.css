@@ -1,0 +1,10 @@
+.header__buttons {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-items: center;
+  left: 1100px;
+  top: 20px;
+  width: 232px;
+  gap: 16px;
+}

@@ -1,0 +1,18 @@
+.form__input {
+  box-sizing: border-box;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-shadow: inset 6px 6px 0px #EEFBFB;
+  text-align: start;
+  padding: 10px;
+
+  width: 448px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #97A1AC;
+}

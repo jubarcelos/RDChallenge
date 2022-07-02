@@ -10,13 +10,35 @@
 @import url(../Blocks/header/nav/header__nav_item.css);
 
 @import url(../Blocks/header/menu/menu.css);
+@import url(../Blocks/header/menu/menu_opened.css);
 @import url(../Blocks/header/menu/menu__container.css);
-@import url(../Blocks/header/menu/menu__opened.css);
 @import url(../Blocks/header/menu/menu__title.css);
 @import url(../Blocks/header/menu/menu__item.css);
 
-@import url(../Blocks/header/button/button.css);
-@import url(../Blocks/header/button/button__color_blue.css);
-@import url(../Blocks/header/button/button__color_white.css);
-@import url(../Blocks/header/button/button__icon.css);
+@import url(../Blocks/button/button.css);
+@import url(../Blocks/button/button__color_blue.css);
+@import url(../Blocks/button/button__color_white.css);
+@import url(../Blocks/button/button__icon.css);
+@import url(../Blocks/button/button__color_yellow.css);
+
+@import url(../Blocks/hero/shape/hero__shape.css);
+@import url(../Blocks/hero/article/title/title.css);
+@import url(../Blocks/hero/article/title/title_large.css);
+@import url(../Blocks/hero/article/title/title_medium.css);
+@import url(../Blocks/hero/article/content/content.css);
+@import url(../Blocks/hero/article/content/content_large.css);
+@import url(../Blocks/hero/article/content/content_medium.css);
+@import url(../Blocks/hero/article/article__span-blue.css);
+
+@import url(../Blocks/hero/hero-form/hero-form.css);
+@import url(../Blocks/hero/hero-form/hero-form__title.css);
+@import url(../Blocks/hero/hero-form/hero-form__content.css);
+@import url(../Blocks/hero/shape/hero__line.css);
+@import url(../Blocks/hero/hero-form/form/form.css);
+@import url(../Blocks/hero/hero-form/form/label/form__label.css);
+@import url(../Blocks/hero/hero-form/form/input/form__input.css);
+@import url(../Blocks/hero/hero-form/form/label/form__label-radio.css);
+@import url(../Blocks/hero/hero-form/form/input/form__input-radio.css);
+@import url(../Blocks/hero/hero-form/form/agreement/agreement.css);
+@import url(../Blocks/hero/hero-form/form/agreement/agreement__link.css);
 

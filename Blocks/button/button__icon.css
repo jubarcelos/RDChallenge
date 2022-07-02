@@ -1,0 +1,14 @@
+.button__icon {
+  grid-column-start:22;
+  grid-column-end: 22;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+
+@media screen and (min-width: 1441px) {
+  .button__icon {
+    display: none;
+  }
+}
