@@ -1,9 +1,12 @@
 .header {
-  height: 3vh;
-  grid-column-start: 1;
-  grid-column-end: 24;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  /* grid-column-start: 1;
+  grid-column-end: 24; */
   grid-row: 1;
-  margin: 24px 108px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }

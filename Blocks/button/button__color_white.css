@@ -1,0 +1,10 @@
+.button__color_white {
+  width: 94px;
+  Height: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 5.2px 2.5px -2px #212429;
+  border: 1px solid #212429;
+  /* grid-column-start: 18;
+  grid-column-end: 18;
+  grid-row: 1; */
+}
