@@ -1,0 +1,10 @@
+.menu__title {
+  padding: 0 0 16px;
+  margin: 0;
+  border-bottom: solid 1px #CFD3D8;
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
+}

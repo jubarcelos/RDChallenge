@@ -1,0 +1,30 @@
+.menu__container {
+  max-width: 799px;
+  max-height: 195px;
+  position: fixed;
+  top: 7vh;
+  left: 25vw;
+  padding: 24px;
+  background-color: #FFFFFF;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 40px;
+}
+
+.container__grid-one {
+  grid-column: 1;
+  list-style-type: none;
+}
+
+.container__grid-two {
+  grid-column: 2;
+  list-style-type: none;
+
+}
+
+.container__grid-three {
+  grid-column: 3;
+  list-style-type: none;
+}

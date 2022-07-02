@@ -1,0 +1,11 @@
+.button__color_blue {
+  width: 122px;
+  height: 40px;
+  top: 20px;
+  left: 1210px;
+  background-color: #19C1CE;
+  box-shadow: 0.3px 4.2px 0px -2px #212429;
+  grid-column-start: 20;
+  grid-column-end: 20;
+  grid-row: 1;
+}

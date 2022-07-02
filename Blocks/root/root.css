@@ -1,0 +1,25 @@
+/* Colors
+
+#0B485B
+#19C1CE
+#07E5EB
+#F2BF4E
+#F4CA6D
+#000000
+#212429
+#7E8A98
+#97A1AC
+#CFD3D8
+#F1F3F5
+#FFFFFF */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  max-width: 1440px;
+  height: auto;
+}
