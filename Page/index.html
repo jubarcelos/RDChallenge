@@ -13,54 +13,55 @@
   src="/Assets/images/RD_logo.png" alt="Logo da empresa RD station">
   <nav class="header__nav">
     <div class="header__nav_item">Menu 1</div>
-    <div class="header__nav_item">Menu 2</div>
+    <div class="header__nav_item">
+      Menu 2
+      <div class="menu">
+        <!-- <div class="menu__background"></div> Para implementar o fechamento clicando no backgroud se der tempo--> 
+        <div class="menu__container">
+          <ul class="container__grid-one">
+            <h2 class="menu__title">METODOLOGIA</h2>
+            <li class="menu__item">Tudo sobre Inbound Marketing</li>
+          </ul>
+          <ul class="container__grid-two">
+            <h2 class="menu__title">CURSOS</h2>
+            <li class="menu__item">RD University</li>
+            <li class="menu__item">Introdução ao Inbound Marketing</li>
+            <li class="menu__item">RD Station Marketing Basic</li>
+          </ul>
+          <ul class="container__grid-three">
+            <h2 class="menu__title">FERRAMENTAS</h2>
+            <li class="menu__item">Avalie seu funil de vendas</li>
+            <li class="menu__item">Compare suas métricas de Email Marketing</li>
+            <li class="menu__item">Calcule o ROI do RD Station Marketing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="header__nav_item">Menu 3</div>
     <div class="header__nav_item">Menu 4</div>
     <div class="header__nav_item">Menu 5</div>
   </nav>
-  <div class="header__buttons">
+  <nav class="header__buttons">
     <a href="" class="button button__color_white">Button</a>
     <a href="" class="button button__color_blue">Button
       <img class="button__icon"src="../Assets/icons/button_indicator/right.png"
         alt="seta indicando para direita">
     </a>
-  </div>
+  </nav>
 </header>
-
-<!-- Menu - dropdown -->
-
-<div class="menu">
-  <!-- <div class="menu__background">
-  </div> -->
-  <div class="menu__container">
-    <ul class="container__grid-one">
-      <h2 class="menu__title">METODOLOGIA</h2>
-      <li class="menu__item">Tudo sobre Inbound Marketing</li>
-    </ul>
-    <ul class="container__grid-two">
-      <h2 class="menu__title">CURSOS</h2>
-      <li class="menu__item">RD University</li>
-      <li class="menu__item">Introdução ao Inbound Marketing</li>
-      <li class="menu__item">RD Station Marketing Basic</li>
-    </ul>
-    <ul class="container__grid-three">
-      <h2 class="menu__title">FERRAMENTAS</h2>
-      <li class="menu__item">Avalie seu funil de vendas</li>
-      <li class="menu__item">Compare suas métricas de Email Marketing</li>
-      <li class="menu__item">Calcule o ROI do RD Station Marketing</li>
-    </ul>
-  </div>
-</div>
 <main class="content">
-  <section class="hero">
-    <div>
-      <div class="hero__shape"></div>
-      <h1 class="title title_large"></h1>
-      <p class="content content_large"></p>
-    </div>
-
-<!-- FORM -->
-  <section class="hero-form">
+  <div class="hero">
+    <div class="hero__shape"></div>
+    <article>
+      <h1 class="title title_large">
+        Gere mais <span class="article__span-blue ">oportunidades</span> para seu negócio
+      </h1>
+      <p class="content content_large">
+        O RD Station Marketing é um software para sua empresa fazer campanhas melhores, nutrir Leads, gerar oportunidades comerciais qualificadas e alcançar mais resultados.
+      </p>
+    </article>
+    <!-- FORM -->
+    <section class="hero-form">
     <h2 class="hero-form__title">
       Comece seus 10 dias de teste grátis do RD Station Marketing!
     </h2>
@@ -176,11 +177,11 @@
       </button>
       </form>
     </section>
-    <div>
+    <article>
       <h2 class="title title_medium"></h2>
       <p class="content content_medium"></p>
-    </div>
-  </section>
+    </article>
+  </div>
 </main>
 <footer></footer>
 <script src="script.js"></script>

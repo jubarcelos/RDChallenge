@@ -1,0 +1,10 @@
+.hero__shape {
+  grid-row: 2;
+  background-image: url(../../../Assets/shape/shape__hero.png);
+  width: 1440px;
+  height: 650px;
+  top: 80px;
+  left: 0px;
+  z-index: 1;
+  position: absolute;
+}

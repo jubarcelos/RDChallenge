@@ -21,6 +21,15 @@
 @import url(../Blocks/button/button__icon.css);
 @import url(../Blocks/button/button__color_yellow.css);
 
+@import url(../Blocks/hero/shape/hero__shape.css);
+@import url(../Blocks/hero/article/title/title.css);
+@import url(../Blocks/hero/article/title/title_large.css);
+@import url(../Blocks/hero/article/title/title_medium.css);
+@import url(../Blocks/hero/article/content/content.css);
+@import url(../Blocks/hero/article/content/content_large.css);
+@import url(../Blocks/hero/article/content/content_medium.css);
+@import url(../Blocks/hero/article/article__span-blue.css);
+
 @import url(../Blocks/hero/hero-form/hero-form.css);
 @import url(../Blocks/hero/hero-form/hero-form__title.css);
 @import url(../Blocks/hero/hero-form/hero-form__content.css);
