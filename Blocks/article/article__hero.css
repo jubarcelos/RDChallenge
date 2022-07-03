@@ -1,0 +1,14 @@
+.article__hero {
+  position: absolute;
+  width: 600px;
+  height: 171px;
+  left: 108px;
+  top: 200px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  gap: 40px;
+  color: #212429;
+}
