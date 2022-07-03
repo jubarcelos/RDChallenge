@@ -1,0 +1,12 @@
+.benefits__cards {
+  max-width: 1224px;
+  min-height: 874px;
+  display: flex;
+  direction:row;
+  text-align: start;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+}
