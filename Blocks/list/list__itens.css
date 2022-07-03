@@ -1,8 +1,9 @@
 .list__itens {
-  overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   gap: 24px;
+  list-style-image: url(../../Assets/icons/checkmark/Vector.png);
+  z-index: 3;
 }
