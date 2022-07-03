@@ -22,13 +22,17 @@
 @import url(../Blocks/button/button__color_yellow.css);
 
 @import url(../Blocks/hero/shape/hero__shape.css);
-@import url(../Blocks/hero/article/title/title.css);
-@import url(../Blocks/hero/article/title/title_large.css);
-@import url(../Blocks/hero/article/title/title_medium.css);
-@import url(../Blocks/hero/article/content/content.css);
-@import url(../Blocks/hero/article/content/content_large.css);
-@import url(../Blocks/hero/article/content/content_medium.css);
-@import url(../Blocks/hero/article/article__span-blue.css);
+@import url(../Blocks/article/article__hero.css);
+@import url(../Blocks/article/article__together.css);
+@import url(../Blocks/article/article__list.css);
+@import url(../Blocks/article/title/title.css);
+@import url(../Blocks/article/title/title_large.css);
+@import url(../Blocks/article/title/title_medium.css);
+@import url(../Blocks/article/content/content.css);
+@import url(../Blocks/article/content/content_large.css);
+@import url(../Blocks/article/content/content_medium.css);
+@import url(../Blocks/article/article__span-blue.css);
+@import url(../Blocks/article/article__span-bold.css);
 
 @import url(../Blocks/hero/hero-form/hero-form.css);
 @import url(../Blocks/hero/hero-form/hero-form__title.css);
@@ -42,3 +46,10 @@
 @import url(../Blocks/hero/hero-form/form/agreement/agreement.css);
 @import url(../Blocks/hero/hero-form/form/agreement/agreement__link.css);
 
+@import url(../Blocks/together/together__background.css);
+@import url(../Blocks/together/together__shape.css);
+
+@import url(../Blocks/list/list.css);
+@import url(../Blocks/list/list__shape.css);
+@import url(../Blocks/list/list__photo.css);
+@import url(../Blocks/list/list__itens.css);

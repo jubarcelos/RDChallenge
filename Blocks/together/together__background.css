@@ -1,0 +1,9 @@
+.together__background {
+  position: absolute;
+  width: 1440px;
+  height: 331px;
+  left: 0px;
+  top: 730px;
+  background: #0B485B;
+  z-index: 0;
+}

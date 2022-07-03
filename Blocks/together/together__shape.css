@@ -1,0 +1,11 @@
+.together__shape {
+  position: absolute;
+  background-image: url(../../../Assets/shape/shape__together.png);
+  width: 96px;
+  height: 96px;
+  left: 0;
+  top: 729px;
+  z-index: 1;
+}
+
+

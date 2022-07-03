@@ -1,0 +1,10 @@
+.list__shape {
+  grid-row: 3;
+  background-image: url(../../../Assets/shape/shape__list.png);
+  width: 1440px;
+  height: 902px;
+  left: 0;
+  top: 1061px;
+  z-index: 1;
+  position: absolute;
+}
