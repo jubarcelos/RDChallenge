@@ -29,8 +29,10 @@
 @import url(../Blocks/article/article__list.css);
 @import url(../Blocks/article/article__card.css);
 @import url(../Blocks/article/title/title.css);
-@import url(../Blocks/article/title/title_large.css);
-@import url(../Blocks/article/title/title_medium.css);
+@import url(../Blocks/article/title/title-large.css);
+@import url(../Blocks/article/title/title-medium.css);
+@import url(../Blocks/article/title/title-medium_black.css);
+@import url(../Blocks/article/title/title-small.css);
 @import url(../Blocks/article/content/content.css);
 @import url(../Blocks/article/content/content_large.css);
 @import url(../Blocks/article/content/content_medium.css);
@@ -60,3 +62,5 @@
 @import url(../Blocks/benefits/benefits.css);
 @import url(../Blocks/benefits/benefits__cards.css);
 @import url(../Blocks/benefits/benefits__card-image.css);
+
+@import url(../Blocks/cta/)
