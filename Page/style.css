@@ -3,10 +3,9 @@
 @import url(../Blocks/page/index.css);
 
 @import url(../Blocks/header/header.css);
+@import url(../Blocks/header/header__logo.css);
 
 @import url(../Blocks/main__content.css);
-
-@import url(../Blocks/header/header__logo.css);
 
 @import url(../Blocks/header/nav/header__nav.css);
 @import url(../Blocks/header/nav/header__nav_item.css);
