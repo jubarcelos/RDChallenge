@@ -1,0 +1,19 @@
+.article__list{
+  position: absolute;
+  width: 496px;
+  height: 531px;
+  left: 881px;
+  top: 1205px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  gap: 24px;
+  color: #212429;
+  margin-top: 80px;
+}
+
+.article__list p, .article__list h2, .article__list li {
+  color: #212429;
+}

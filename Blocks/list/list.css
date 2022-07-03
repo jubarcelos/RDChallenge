@@ -1,0 +1,10 @@
+.list {
+  grid-row: 4;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 113px;
+  z-index: 2;
+}
