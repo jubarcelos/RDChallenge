@@ -1,0 +1,8 @@
+.main__content {
+  grid-column-start: 1;
+  grid-column-end: 24;
+  grid-row-start: 2;
+  grid-row-end: 7;
+  width:1440px;
+  height:4522px;
+}

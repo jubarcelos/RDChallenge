@@ -1,0 +1,12 @@
+.benefits__card-image {
+  display: flex;
+  text-align: start;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 64px;
+  height: 64px;
+  padding: 22px;
+  background-color: #F1F3F5;
+  border-radius: 50%;
+}
