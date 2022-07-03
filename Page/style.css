@@ -32,6 +32,7 @@
 @import url(../Blocks/article/content/content_large.css);
 @import url(../Blocks/article/content/content_medium.css);
 @import url(../Blocks/article/article__span-blue.css);
+@import url(../Blocks/article/article__span-bold.css);
 
 @import url(../Blocks/hero/hero-form/hero-form.css);
 @import url(../Blocks/hero/hero-form/hero-form__title.css);
