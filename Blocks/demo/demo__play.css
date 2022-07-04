@@ -1,0 +1,10 @@
+.demo__play {
+  position: absolute;
+  background-color: #F1F3F5;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 1;
+  width: 112px;
+  height: 112px;
+  padding: 38px 40px;
+}

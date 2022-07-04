@@ -1,0 +1,9 @@
+.demo__image {
+  background-image: url(../../Assets/images/video_cover.png);
+  position: absolute;
+  width: 649px;
+  height: 365px;
+  left: 580px;
+  top: 123px;
+  z-index: 2;
+}

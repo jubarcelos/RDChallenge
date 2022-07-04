@@ -1,0 +1,16 @@
+.demo__shape-circle {
+  position: absolute;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  width: 160px;
+  height: 160px;
+  background: #78EDF2;
+  padding: 12px;
+  border-radius: 50%;
+  flex-direction: center;
+  align-items: center;
+  left: 905px;
+  top: 250px;
+  opacity: 0.4;
+  z-index: 3;
+}
