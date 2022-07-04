@@ -1,0 +1,10 @@
+.logo-tolls__container {
+  max-width: 579px;
+  max-height: 160px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 16px;
+}
