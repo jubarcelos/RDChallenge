@@ -1,9 +1,10 @@
 .demo__play {
-  background-image: url(../../Assets/icons/button_indicator/play.png);
   position: absolute;
-  width: 32px;
-  height: 36px;
-  left: 960px;
-  top: 295px;
-  z-index: 5;
+  background-color: #F1F3F5;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 1;
+  width: 112px;
+  height: 112px;
+  padding: 38px 40px;
 }

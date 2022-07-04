@@ -2,11 +2,9 @@
   position: absolute;
   width: 136px;
   height: 136px;
-  left: 905px;
-  top: 250px;
-  z-index: 4;
   background: #78EDF2;
   padding: 12px;
   border-radius: 50%;
-  opacity: 0.5;
+  opacity: 0.6;
+  z-index: 4;
 }

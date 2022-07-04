@@ -1,0 +1,6 @@
+.demo__image-play {
+  position: absolute;
+  width: 32px;
+  height: 36px;
+  z-index: 6;
+}
