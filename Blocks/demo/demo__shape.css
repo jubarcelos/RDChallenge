@@ -5,7 +5,7 @@
   grid-row-end: 7;
   width: 1332px;
   height: 317px;
-  left: 0px;
-  top: 3697px;
-  z-index: 0;
+  z-index:1;
+  display: flex;
+  align-items: center;
 }

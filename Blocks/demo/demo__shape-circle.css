@@ -1,9 +1,11 @@
 .demo__shape-circle {
   position: absolute;
+  grid-row-start: 7;
+  grid-row-end: 7;
   width: 160px;
   height: 160px;
   left: 895px;
-  top: 3785px;
+  top: 235px;
   z-index: 4;
   background: #78EDF2;
   padding: 12px;
