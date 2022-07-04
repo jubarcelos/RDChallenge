@@ -6,3 +6,20 @@ Vaga: Pessoa Engenheira de Software - Frontend (Javascript)
 
 branch footer em andamento, não deu tempo.
 Obrigada pela oportunidade, lamento não ter finalizado a tempo.
+
+Falta concluir:
+
+- [ ] Implementar o footer
+- [ ] Implementar po @media para 768px e 320px
+- [ ] Concluir validação de Formulário
+- [ ] Concluir popUp do iframe
+- [ ] Testes unitários
+- [ ] Implementar carrossel
+- [ ] Implementar menu sanduiche
+
+
+Avaliação do desafio:
+
+Interessante, 
+
+
