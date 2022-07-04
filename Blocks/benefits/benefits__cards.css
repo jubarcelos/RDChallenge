@@ -1,6 +1,7 @@
 .benefits__cards {
   max-width: 1224px;
   min-height: 874px;
+  color: #212429;
   display: flex;
   direction:row;
   text-align: start;
@@ -9,4 +10,5 @@
   flex-wrap: wrap;
   row-gap: 24px;
   column-gap: 24px;
+  padding-top: 48px;
 }

@@ -17,10 +17,11 @@
 @import url(../Blocks/header/menu/menu__item.css);
 
 @import url(../Blocks/button/button.css);
-@import url(../Blocks/button/button__color_blue.css);
-@import url(../Blocks/button/button__color_white.css);
+@import url(../Blocks/button/button__header_blue.css);
+@import url(../Blocks/button/button__header_white.css);
 @import url(../Blocks/button/button__icon.css);
-@import url(../Blocks/button/button__color_yellow.css);
+@import url(../Blocks/button/button__hero-yellow.css);
+@import url(../Blocks/button/button__cta-yellow.css);
 
 @import url(../Blocks/hero/hero.css);
 @import url(../Blocks/hero/shape/hero__shape.css);
@@ -28,9 +29,14 @@
 @import url(../Blocks/article/article__together.css);
 @import url(../Blocks/article/article__list.css);
 @import url(../Blocks/article/article__card.css);
+@import url(../Blocks/article/article__cta.css);
+
 @import url(../Blocks/article/title/title.css);
-@import url(../Blocks/article/title/title_large.css);
-@import url(../Blocks/article/title/title_medium.css);
+@import url(../Blocks/article/title/title-small.css);
+@import url(../Blocks/article/title/title-medium.css);
+@import url(../Blocks/article/title/title-medium_black.css);
+@import url(../Blocks/article/title/title-large.css);
+
 @import url(../Blocks/article/content/content.css);
 @import url(../Blocks/article/content/content_large.css);
 @import url(../Blocks/article/content/content_medium.css);
@@ -60,3 +66,6 @@
 @import url(../Blocks/benefits/benefits.css);
 @import url(../Blocks/benefits/benefits__cards.css);
 @import url(../Blocks/benefits/benefits__card-image.css);
+
+@import url(../Blocks/cta/cta.css);
+@import url(../Blocks/cta/cta__shape.css);

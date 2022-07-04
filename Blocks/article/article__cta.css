@@ -1,0 +1,16 @@
+.article__cta {
+  position: absolute;
+  z-index: 3;
+  gap: 24px;
+  width: 808px;
+  height: 152px;
+  top: 80px;
+  left: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0  auto;
+  text-align: center;
+
+}

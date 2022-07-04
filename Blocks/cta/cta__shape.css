@@ -1,0 +1,8 @@
+.cta__shape {
+  position: absolute;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  background-color: #0B485B;
+  width: 1224px;
+  height: 396px;
+}
