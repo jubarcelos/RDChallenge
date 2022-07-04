@@ -11,6 +11,7 @@
   padding: 8px 16px;
 }
 
-button:focus {
-  outline: #212429 3px auto;
+button:hover {
+  background: #F1F3F5;
+  border: 1px solid #07E5EB;
 }

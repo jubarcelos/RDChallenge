@@ -1,4 +1,5 @@
-.button__color_yellow {
+.button__hero-yellow {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -9,4 +10,10 @@
   background: #F2BF4E;
   box-shadow: 1px 9.2px 5.5px -5px #212429;
   border: 1px solid #F2BF4E;
+  cursor: pointer;
+}
+
+.button__hero-yellow:hover {
+  background: #F1F3F5;
+  border: 1px solid #07E5EB;
 }
