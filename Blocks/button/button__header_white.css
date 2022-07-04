@@ -1,12 +1,12 @@
 .button__header_white {
   width: 94px;
   Height: 40px;
-  background-color: #FFFFFF;
-  box-shadow: 1px 5.2px 2.5px -2px #212429;
-  border: 1px solid #212429;
+  background-color: var( --cor-white);
+  box-shadow: 1px 5.2px 2.5px -2px var(--cor-graphite);
+  border: 1px solid var(--cor-graphite);
 }
 
 .button__header_white:hover {
-  background: #F1F3F5;
-  border: 1px solid #07E5EB;
+  background: var(--cor-off-white);
+  border: 1px solid var(--cor-light-blue);
 }

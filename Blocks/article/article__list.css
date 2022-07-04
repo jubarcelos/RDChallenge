@@ -10,10 +10,10 @@
   justify-content: start;
   align-content: center;
   gap: 24px;
-  color: #212429;
+  color: var(--cor-graphite);
   margin-top: 80px;
 }
 
 .article__list p, .article__list h2, .article__list li {
-  color: #212429;
+  color: var(--cor-graphite);
 }

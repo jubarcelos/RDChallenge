@@ -7,6 +7,6 @@
   display: block;
   margin-top: 16px;
   text-align: start;
-  color: #000000;
+  color: var(--cor-black);
   align-self: flex-start;
 }

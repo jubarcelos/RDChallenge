@@ -7,7 +7,7 @@
   width: 799px;
   height: 195px;
   display: none;
-  background: #FFFFFF;
+  background: var( --cor-white);
   justify-content: center;
   align-items: center;
   z-index: 4;

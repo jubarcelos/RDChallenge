@@ -6,7 +6,7 @@
   width: 1212px;
   height: 682px;
   display: none;
-  background: #FFFFFF;
+  background: var( --cor-white);
   justify-content: center;
   align-items: center;
   z-index: 10;

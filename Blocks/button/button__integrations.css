@@ -1,9 +1,9 @@
 .button__integrations {
   width: 257px;
   height: 44px;
-  background-color: #19C1CE;
-  box-shadow: 0.3px 5.2px 2.5px -2px #212429;
-  border: 1px solid #19C1CE;
+  background-color: var(--cor-medium-blue);
+  box-shadow: 0.3px 5.2px 2.5px -2px var(--cor-graphite);
+  border: 1px solid var(--cor-medium-blue);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,6 +12,6 @@
 }
 
 .button__integrations:hover {
-  background: #F1F3F5;
-  border: 1px solid #07E5EB;
+  background: var(--cor-off-white);
+  border: 1px solid var(--cor-light-blue);
 }

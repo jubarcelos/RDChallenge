@@ -3,6 +3,6 @@
   height: 0px;
   left: 860px;
   top: 269px;
-  border: 1px solid #CFD3D8;
+  border: 1px solid var(--cor-light-gray);
   margin: 24px 0;
 }

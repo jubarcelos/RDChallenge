@@ -4,6 +4,6 @@
   height: 331px;
   left: 0px;
   top: 730px;
-  background: #0B485B;
+  background: var( --cor-close-blue);
   z-index: 0;
 }

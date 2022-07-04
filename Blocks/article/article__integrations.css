@@ -6,9 +6,9 @@
   gap: 24px;
   width: 600px;
   height: 244px;
-  color: #212429;
+  color: var(--cor-graphite);
 }
 
 .article__integrations p {
-  color: #212429;
+  color: var(--cor-graphite);
 }

@@ -6,5 +6,5 @@
   font-size: 14px;
   line-height: 20px;
   display: block;
-  color: #97A1AC;
+  color: var(--cor-medium-gray);
 }

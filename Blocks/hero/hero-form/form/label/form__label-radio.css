@@ -7,5 +7,5 @@
   line-height: 1.5;
   letter-spacing: -0.01em;
   font-feature-settings: 'ss02' on;
-  color: #212429;
+  color: var(--cor-graphite);
 }
