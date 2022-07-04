@@ -1,0 +1,11 @@
+.demo__shape {
+  background-image: url(../../Assets/shapes/demo__shape.png);
+  position: absolute;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  width: 1332px;
+  height: 317px;
+  left: 0px;
+  top: 3697px;
+  z-index: 0;
+}

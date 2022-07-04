@@ -1,0 +1,9 @@
+.demo__play {
+  background-image: url(../../Assets/icons/button_indicator/play.png);
+  position: absolute;
+  width: 32px;
+  height: 36px;
+  left: 960px;
+  top: 3845px;
+  z-index: 5;
+}
