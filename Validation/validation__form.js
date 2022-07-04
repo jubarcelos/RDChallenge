@@ -32,3 +32,5 @@ validate = (data, schema) => {
   const result = Joi.validate(data, schema, options);
   // result.error === null -> valid
 };
+
+export { validate, validatePropery }
