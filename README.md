@@ -10,7 +10,8 @@ Obrigada pela oportunidade, lamento não ter finalizado a tempo.
 Falta concluir:
 
 - [ ] Implementar o footer
-- [ ] Implementar po @media para 768px e 320px
+- [ ] Implementar po @media para 768px
+- [ ] Implementar @media para 320px
 - [ ] Concluir validação de Formulário
 - [ ] Concluir popUp do iframe
 - [ ] Testes unitários
@@ -20,6 +21,6 @@ Falta concluir:
 
 Avaliação do desafio:
 
-Interessante, 
+Interessante, não consegui executar em 3 dias, mas pretendo concluir.
 
 
