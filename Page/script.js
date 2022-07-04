@@ -9,7 +9,6 @@ function handleMenu() {
 
 menuTwo.addEventListener("click", () => {
   handleMenu();
-  //animation
 });
 
 
@@ -97,3 +96,17 @@ function onFormSubmit() {
 //   clearForm();
 //   submitFormAnswer();
 // });
+
+
+//DEMO - IFRAME
+
+const iframe = document.querySelector(".demo__iframe");
+const playButton = document.querySelector(".button__demo");
+
+function handleIframe() {
+  iframe.classList.toggle("iframe_opened");
+}
+
+playButton.addEventListener("click", () => {
+  handleIframe();
+});
