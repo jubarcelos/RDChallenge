@@ -1,0 +1,17 @@
+.button__integrations {
+  width: 257px;
+  height: 44px;
+  background-color: #19C1CE;
+  box-shadow: 0.3px 5.2px 2.5px -2px #212429;
+  border: 1px solid #19C1CE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0 120px 0;
+}
+
+.button__integrations:hover {
+  background: #F1F3F5;
+  border: 1px solid #07E5EB;
+}

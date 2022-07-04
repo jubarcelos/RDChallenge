@@ -1,0 +1,14 @@
+.article__integrations {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+  width: 600px;
+  height: 244px;
+  color: #212429;
+}
+
+.article__integrations p {
+  color: #212429;
+}
