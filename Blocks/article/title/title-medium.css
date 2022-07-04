@@ -2,6 +2,6 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 1.0;
-  color: #FFFFFF;
+  color: var( --cor-white);
   width: 600px;
 }

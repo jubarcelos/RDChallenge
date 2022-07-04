@@ -1,7 +1,7 @@
 .benefits__cards {
   max-width: 1224px;
   min-height: 874px;
-  color: #212429;
+  color: var(--cor-graphite);
   display: flex;
   direction:row;
   text-align: start;

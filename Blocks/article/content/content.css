@@ -1,6 +1,6 @@
 .content {
   font-family: 'Nunito Sans';
   font-style: normal;
-  color: #212429;
+  color: var(--cor-graphite);
   z-index: 4;
 }

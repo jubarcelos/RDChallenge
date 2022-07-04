@@ -6,13 +6,13 @@
   align-items: center;
   padding: 8px 24px;
   width: 400px;
-  background: #F2BF4E;
-  box-shadow: 1px 9.2px 5.5px -5px #212429;
-  border: 1px solid #F2BF4E;
+  background: var(--cor-close-yellow);
+  box-shadow: 1px 9.2px 5.5px -5px var(--cor-graphite);
+  border: 1px solid var(--cor-close-yellow);
 
 }
 
 .button__hero-yellow:hover {
-  background: #F1F3F5;
-  border: 1px solid #07E5EB;
+  background: var(--cor-off-white);
+  border: 1px solid var(--cor-light-blue);
 }

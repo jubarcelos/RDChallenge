@@ -10,5 +10,5 @@
   justify-content: start;
   align-content: center;
   gap: 40px;
-  color: #212429;
+  color: var(--cor-graphite);
 }

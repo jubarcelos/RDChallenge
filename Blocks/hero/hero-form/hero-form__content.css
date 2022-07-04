@@ -9,6 +9,6 @@
   font-size: 14px;
   line-height: 1.2;
   text-align: center;
-  color: #7E8A98;
+  color: var(--cor-close-gray);
   margin: 16px 0;
 }

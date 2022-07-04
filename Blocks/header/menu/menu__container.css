@@ -1,7 +1,7 @@
 .menu__container {
   max-width: 799px;
   max-height: 195px;
-  background-color: #FFFFFF;
+  background-color: var( --cor-white);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;

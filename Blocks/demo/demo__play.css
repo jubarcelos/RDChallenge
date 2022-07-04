@@ -1,6 +1,6 @@
 .demo__play {
   position: absolute;
-  background-color: #F1F3F5;
+  background-color: var(--cor-off-white);
   background-repeat: no-repeat;
   border-radius: 50%;
   opacity: 1;

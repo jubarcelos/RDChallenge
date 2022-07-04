@@ -1,4 +1,4 @@
 .article__span-blue {
-  color: #19C1CE;
+  color: var(--cor-medium-blue);
   z-index: 4;
 }
