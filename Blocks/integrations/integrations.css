@@ -2,9 +2,10 @@
   position: absolute;
   grid-row-start: 8;
   grid-row-end: 8;
-  width: 100%;
+  width: 1224px;
   height: 364px;
   top: 4157px;
+  left: 108px;
   display: flex;
   flex-direction: row;
   justify-content: center;
