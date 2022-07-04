@@ -1,0 +1,10 @@
+.integrations__elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+  z-index: 0;
+  width: 600px;
+  height: 244px;
+}

@@ -86,6 +86,7 @@
 @import url(../Blocks/demo/demo-link/demo-link__name.css);
 
 @import url(../Blocks/integrations/integrations.css);
+@import url(../Blocks/integrations/integrations__elements.css);
 @import url(../Blocks/integrations/logo-tolls__container.css);
 @import url(../Blocks/integrations/logo-tools/logo-tolls.css);
 @import url(../Blocks/integrations/logo-tools/logo-tolls_facebook.css);
