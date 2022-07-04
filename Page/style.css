@@ -23,6 +23,7 @@
 @import url(../Blocks/button/button__hero-yellow.css);
 @import url(../Blocks/button/button__cta-yellow.css);
 @import url(../Blocks/button/button__demo.css);
+@import url(../Blocks/button/button__integrations.css);
 
 @import url(../Blocks/hero/hero.css);
 @import url(../Blocks/hero/shape/hero__shape.css);
@@ -31,6 +32,7 @@
 @import url(../Blocks/article/article__list.css);
 @import url(../Blocks/article/article__card.css);
 @import url(../Blocks/article/article__cta.css);
+@import url(../Blocks/article/article__integrations.css);
 
 @import url(../Blocks/article/title/title.css);
 @import url(../Blocks/article/title/title-small.css);
@@ -41,6 +43,7 @@
 @import url(../Blocks/article/content/content.css);
 @import url(../Blocks/article/content/content_large.css);
 @import url(../Blocks/article/content/content_medium.css);
+@import url(../Blocks/article/content/content_small.css);
 @import url(../Blocks/article/article__span-blue.css);
 @import url(../Blocks/article/article__span-bold.css);
 
@@ -81,3 +84,20 @@
 @import url(../Blocks/demo/demo-link/demo-link.css);
 @import url(../Blocks/demo/demo-link/demo-link__icon.css);
 @import url(../Blocks/demo/demo-link/demo-link__name.css);
+
+@import url(../Blocks/integrations/integrations.css);
+@import url(../Blocks/integrations/logo-tolls__container.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_facebook.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_google.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_hotmart.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_linkedin.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_pagSeguro.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_rd.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_sales-force.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_shopfy.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_wordpress.css);
+@import url(../Blocks/integrations/logo-tools/logo-tolls_zapier.css);
+
+
+
