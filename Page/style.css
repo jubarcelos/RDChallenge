@@ -22,6 +22,7 @@
 @import url(../Blocks/button/button__icon.css);
 @import url(../Blocks/button/button__hero-yellow.css);
 @import url(../Blocks/button/button__cta-yellow.css);
+@import url(../Blocks/button/button__demo.css);
 
 @import url(../Blocks/hero/hero.css);
 @import url(../Blocks/hero/shape/hero__shape.css);
@@ -77,7 +78,7 @@
 @import url(../Blocks/demo/demo__shape-play.css);
 @import url(../Blocks/demo/demo__shape-circle.css);
 @import url(../Blocks/demo/demo__shape.css);
-@import url(../Blocks/demo/demo_texts.css);
+@import url(../Blocks/demo/demo__texts.css);
 @import url(../Blocks/demo/demo-link/demo-link.css);
 @import url(../Blocks/demo/demo-link/demo-link__icon.css);
 @import url(../Blocks/demo/demo-link/demo-link__name.css);
