@@ -1,0 +1,9 @@
+.footer__logo {
+  position: absolute;
+  background-image: url(../../Assets/images/RD_logo.png);
+  background-repeat: no-repeat;
+  max-width: 174px;
+  max-height: 32px;
+  left: 108px;
+  top: 4562px;
+}
