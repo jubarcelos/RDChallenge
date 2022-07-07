@@ -1,9 +1,11 @@
 .footer__logo {
   position: absolute;
-  background-image: url(../../Assets/images/RD_logo.png);
+  width: 174px;
+  height: 32px;
+  background-image: url(../../Assets/images/logo_footer.png);
   background-repeat: no-repeat;
-  max-width: 174px;
-  max-height: 32px;
+  z-index: 2;
   left: 108px;
-  top: 4562px;
+  top: 14px;
+  margin: 40px 0 24px;
 }

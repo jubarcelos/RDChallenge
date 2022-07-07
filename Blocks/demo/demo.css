@@ -1,7 +1,8 @@
 .demo {
-  position: absolute;
   grid-row-start: 7;
   grid-row-end: 7;
+  position: absolute;
+  overflow: hidden;
   width: 100%;
   height: 605px;
   top: 3552px;

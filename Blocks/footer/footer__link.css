@@ -1,0 +1,5 @@
+.footer__link {
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: var(--cor-graphite);
+}

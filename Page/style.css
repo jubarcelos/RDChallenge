@@ -99,6 +99,8 @@
 @import url(../Blocks/integrations/logo-tools/logo-tolls_wordpress.css);
 @import url(../Blocks/integrations/logo-tools/logo-tolls_zapier.css);
 
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks/footer/footer__up);
 @import url(../Blocks/footer/footer__logo.css);
 @import url(../Blocks/footer/nav-links.css);
 @import url(../Blocks/footer/facebook.css);
@@ -106,4 +108,6 @@
 @import url(../Blocks/footer/instagram.css);
 @import url(../Blocks/footer/linkedin.css);
 @import url(../Blocks/footer/youtube.css);
+@import url(../Blocks/footer/footer__line.css);
 @import url(../Blocks/footer/footer__copyright.css);
+@import url(../Blocks/footer/footer__link.css);

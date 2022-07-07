@@ -8,6 +8,7 @@ html {
   width: 100%;
   height: 100%;
   max-width: 1440px;
+  max-height: 4883px;
 }
 
 :root {

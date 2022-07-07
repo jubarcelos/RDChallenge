@@ -2,9 +2,8 @@
   max-width: 224px;
   max-height: 32px;
   display: flex;
-  justify-content: flex-start;
-  text-align: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 16px;
+  margin: 0 108px;
+  margin: 40px 108px 24px;
 }

@@ -1,7 +1,8 @@
 .cta {
-  position: absolute;
   grid-row-start: 6;
   grid-row-end: 6;
+  position: absolute;
+  overflow: hidden;
   width: 1224px;
   height: 396px;
   left: 108px;
