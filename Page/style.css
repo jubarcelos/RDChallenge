@@ -75,9 +75,7 @@
 
 @import url(../Blocks/demo/demo.css);
 @import url(../Blocks/demo/demo__image.css);
-@import url(../Blocks/demo/demo__play.css);
 @import url(../Blocks/demo/demo__shape-play.css);
-@import url(../Blocks/demo/demo__shape-circle.css);
 @import url(../Blocks/demo/demo__shape.css);
 @import url(../Blocks/demo/demo__texts.css);
 @import url(../Blocks/demo/demo-link/demo-link.css);
@@ -101,6 +99,8 @@
 @import url(../Blocks/integrations/logo-tools/logo-tolls_wordpress.css);
 @import url(../Blocks/integrations/logo-tools/logo-tolls_zapier.css);
 
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks/footer/footer__up);
 @import url(../Blocks/footer/footer__logo.css);
 @import url(../Blocks/footer/nav-links.css);
 @import url(../Blocks/footer/facebook.css);
@@ -108,3 +108,6 @@
 @import url(../Blocks/footer/instagram.css);
 @import url(../Blocks/footer/linkedin.css);
 @import url(../Blocks/footer/youtube.css);
+@import url(../Blocks/footer/footer__line.css);
+@import url(../Blocks/footer/footer__copyright.css);
+@import url(../Blocks/footer/footer__link.css);

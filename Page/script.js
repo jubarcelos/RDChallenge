@@ -37,7 +37,7 @@ const allInput = document.querySelectorAll('.form__input');
 const submit = document.querySelector('#submit-btn');
 
 function addOptionsToSelectJobs(jobs) {
-  return jobs.forEach((job, key) => selectJob[key+1] = new Option(job,key+1));
+  return jobs.forEach((job, key) => selectJob[key + 1] = new Option(job, key + 1));
 }
 
 selectJob.addEventListener('click', addOptionsToSelectJobs(jobs));
@@ -72,7 +72,7 @@ function saveFormInformation() {
     phone: document.querySelector('.input-phone').value,
     job: checkJobInput(),
     password: document.querySelector('.input-password').value,
-    website:checkJobInput(),
+    website: checkJobInput(),
   }
   return formAnswers.push(currentFormAnswers);
 }
@@ -97,14 +97,13 @@ function onFormSubmit() {
 //   submitFormAnswer();
 // });
 
-
 //DEMO - IFRAME
 
 const iframe = document.querySelector(".demo__iframe");
 const playButton = document.querySelector(".button__demo");
 
 function handleIframe() {
-  iframe.style.display="flex";
+  iframe.style.display = "flex";
 }
 
 playButton.addEventListener("click", () => {
