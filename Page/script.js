@@ -104,7 +104,7 @@ const iframe = document.querySelector(".demo__iframe");
 const playButton = document.querySelector(".button__demo");
 
 function handleIframe() {
-  iframe.classList.toggle("iframe_opened");
+  iframe.style.display="flex";
 }
 
 playButton.addEventListener("click", () => {

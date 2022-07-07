@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>RD station test</title>
   <link rel="stylesheet" href="style.css">
+  <title>RD station test</title>
 </head>
   <body class="page">
     <header class="header">
@@ -72,12 +72,19 @@
         <form 
           class="form" 
           action="https://app.rdstation.com.br/signup" 
-          method="POST" onSubmit="onFormSubmit()">
+          method="POST" onSubmit="validate()">
           <label class="form__label" for="input-name">
             Diga, qual o seu nome?
           </label>
-          <input class="form__input" name="name" type="text" required="true" id="input-name" placeholder="Insira seu nome" />
-          <label class="form__label" for="input-email">
+          <input 
+            class="form__input"
+            name="name"
+            type="text"
+            required="true"
+            id="input-name"
+            placeholder="Insira seu nome"
+            onChange="validatePropery()" />
+          <label class="form__label"for="input-email">
             Seu email de trabalho
           </label>
           <input 
@@ -86,7 +93,8 @@
             type="email" 
             required="true" 
             id="input-email" 
-            placeholder="Insira seu e-mail" />
+            placeholder="Insira seu e-mail"
+            onChange="validatePropery()" />
           <label class="form__label" for="input-phone">
             Seu telefone
           </label>
@@ -94,11 +102,16 @@
             class="form__input" 
             name="phone" type="text" 
             required="true" id="input-phone" 
-            placeholder="Insira seu número de telefone com DDD" />
+            placeholder="Insira seu número de telefone com DDD"
+            onChange="validatePropery()" />
           <label class="form__label" for="select-job">
             Seu cargo de ocupação
           </label> 
-          <select name="job" class="select-job" required="true">
+          <select 
+            name="job" 
+            class="select-job" 
+            required="true"
+            onChange="validatePropery()">
             <option class="form__option" disabled selected value>Selecione seu car</option>
           </select>
           <label class="form__label" for="input-password">
@@ -110,7 +123,8 @@
             type="password" 
             required="true" 
             id="input-password" 
-            placeholder="........" />
+            placeholder="........"
+            onChange="validatePropery()"/>
           <label class="form__label" for="input-phone">
             Confirme sua senha
           </label>
@@ -120,7 +134,8 @@
             type="check" 
             required="true" 
             id="input-confirme-password"
-            placeholder="Branding-rd@2021*" />
+            placeholder="Branding-rd@2021*"
+            onChange="validatePropery()"/>
           <label 
             class="form__label" 
             for="website">
@@ -131,7 +146,8 @@
               class="form__input-radio" 
               id="true" class="website" 
               type="radio" name="website" 
-              value="true"/>
+              value="true"
+              onChange="validatePropery()"/>
             <label for="true" class="form__label-radio">
               Meu site é
             </label>
@@ -139,7 +155,8 @@
               class="form__input" 
               type="website" 
               id="website-true" 
-              placeholder="Insira o endereço do seu site" />
+              placeholder="Insira o endereço do seu site"
+              onChange="validatePropery()" />
             <input 
               class="form__input-radio"
               id="false" 
@@ -172,7 +189,8 @@
             disabled="true"
             type="submit"
             id="submit-btn"
-            disabled>
+            disabled
+            onSubmit="validate()">
             criar minha conta
           </button>
           </form>
@@ -356,25 +374,17 @@
             href="https://www.youtube.com/watch?v=lGCesaaLi4s">
         </div>
         <div class="demo__image"></div>
+        <div class="demo__shape-play"></div>
         <div class="demo__iframe">
-          <!-- implementar um popUp que tenha um botão de fechar que faça o mesmo togle que o butão de play. -->
-          <!-- <div class="demo__iframe__background"></div> 
-            Para implementar o fechamento clicando no backgroud se der tempo--> 
-          <iframe 
-            class="demo__iframe_container"
-            src="https:/www.youtube-nocookie.com/embed/lGCesaaLi4s"
-            title="Conheça o RD Station Marketing - Demonstração"
-            frameborder="0"
-            allow="accelerometer; autoplay;"
-            allowfullscreen>
-          </iframe>
-        </div>
-        </div>
-        <div class="demo__shape-circle">
-          <div class="demo__shape-play">
-            <div class="demo__play">
-              <img class="demo__image-play" src="../../Assets/icons/button_indicator/play.png" alt="Play">
-            </div>
+          <div class="demo__iframe_container">
+            <iframe
+              class="demo__iframe_opened"
+              src="https:/www.youtube-nocookie.com/embed/lGCesaaLi4s"
+              title="Conheça o RD Station Marketing - Demonstração"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
       </section>
@@ -403,7 +413,50 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer__logo"></div>
+      <div class="footer__up">
+        <nav class="nav-links">
+          <div class="twitter">
+            <link
+            rel="twitter"
+            target="_blank"
+            href="https://twitter.com/rd_station">
+          </div>
+          <div class="facebook">
+            <link
+            rel="facebook"
+            target="_blank"
+            href="https://www.facebook.com/ResultadosDigitais/">
+          </div>
+          <div class="linkedin">
+            <link
+            rel="linkedin"
+            target="_blank"
+            href="https://www.linkedin.com/company/resultadosdigitais">
+          </div>
+          <div class="instagram">
+            <link
+            rel="intagram"
+            target="_blank"
+            href="https://www.instagram.com/resdigitais/">
+          </div>
+          <div class="youtube">
+            <link
+            rel="youtube"
+            target="_blank"
+            href="https://www.youtube.com/channel/UC5lPKvmw6-DFya_qreisENQ">
+          </div>
+        </nav>
+      </div>
+      <p>© 2021 RD Station. 
+        <a href="">
+          Política de Privacidade.
+        </a>
+      </p>
+    </footer>
     <script src="script.js"></script>
+    <!-- <script src="schema__form.js"></script>
+    <script src="validation__form.js"></script> -->
   </body>
 </html>
