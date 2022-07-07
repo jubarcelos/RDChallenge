@@ -1,10 +1,13 @@
 .demo__shape-play {
   position: absolute;
-  width: 136px;
-  height: 136px;
-  background: #78EDF2;
-  padding: 12px;
-  border-radius: 50%;
-  opacity: 0.6;
-  z-index: 4;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  background-image: url(../../Assets/images/play.png);
+  width: 160px;
+  height: 160px;
+  flex-direction: center;
+  align-items: center;
+  left: 905px;
+  top: 250px;
+  z-index: 3;
 }
