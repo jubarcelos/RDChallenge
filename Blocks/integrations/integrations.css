@@ -1,7 +1,8 @@
 .integrations {
-  position: absolute;
   grid-row-start: 8;
   grid-row-end: 8;
+  position: absolute;
+  overflow: hidden;
   width: 1224px;
   height: 364px;
   top: 4157px;

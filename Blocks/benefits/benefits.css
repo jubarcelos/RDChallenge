@@ -3,6 +3,7 @@
   grid-row-end: 5;
   gap:24px;
   position: absolute;
+  overflow: hidden;
   width: 1224px;
   height: 1074px;
   left: 108px;
