@@ -1,6 +1,8 @@
 .demo__iframe_container {
-  width: 1212px;
-  height: 682px;
-  background-color: var( --cor-white);
-  z-index: 9;
+  position: absolute;
+  width: 649px;
+  height: 365px;
+  left: 580px;
+  top: 123px;
+  z-index: 6;
 }
