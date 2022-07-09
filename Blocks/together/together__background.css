@@ -1,5 +1,6 @@
 .together__background {
   position: absolute;
+  overflow: hidden;
   width: 1440px;
   height: 331px;
   left: 0px;
