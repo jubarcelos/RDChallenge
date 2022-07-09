@@ -10,3 +10,9 @@
   background: var(--cor-off-white);
   border: 1px solid var(--cor-light-blue);
 }
+
+@media screen and (max-width: 767px) and (min-width: 360px){
+  .button__header_blue {
+    display: none;
+  }
+}

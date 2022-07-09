@@ -8,3 +8,9 @@
   width: 232px;
   gap: 16px;
 }
+
+
+@media screen and (max-width: 767px) and (min-width: 360px){  .header__buttons {
+    display: none;
+  }
+}

@@ -9,3 +9,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media screen and (max-width: 767px) and (min-width: 360px){  .header {
+    max-width: 767px;
+    height: 64px;
+  }
+}

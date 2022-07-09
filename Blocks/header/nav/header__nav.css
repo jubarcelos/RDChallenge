@@ -2,9 +2,15 @@
   width: 539px;
   display: flex;
   align-items: flex-start;
+  overflow: hidden;
   gap: 64px;
   width: 551px;
   height: 16px;
   left: 484px;
   top: 32px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 360px){  .header__nav {
+    display: none;
+  }
 }
