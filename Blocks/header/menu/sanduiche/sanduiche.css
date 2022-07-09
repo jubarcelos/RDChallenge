@@ -1,0 +1,17 @@
+.sanduiche {
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  width: 360px;
+  height: 408px;
+  top: 45px;
+  left: 100px;
+  display: none;
+  background: var( --cor-white);
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 4;
+  padding: 16px;
+  box-shadow: 0px 8px 18px rgba(33, 36, 41, 0.16);
+  border-radius: 2px;
+}

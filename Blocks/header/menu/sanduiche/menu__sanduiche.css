@@ -1,0 +1,9 @@
+.menu__sanduiche {
+  background-image: url(../../../../Assets/icons/button_indicator/sanduiche_menu.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 344px;
+  top: 48px;
+}

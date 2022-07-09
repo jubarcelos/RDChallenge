@@ -1,0 +1,11 @@
+.sanduiche__buttons {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-items: center;
+  left: 64px;
+  top: 24px;
+  max-width: 232px;
+  height: 40px;
+  gap: 16px;
+}
