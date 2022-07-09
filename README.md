@@ -9,12 +9,12 @@ Obrigada pela oportunidade, lamento não ter finalizado a tempo.
 
 Falta concluir:
 
-- [ ] Implementar o footer
+- [x] Implementar o footer
 - [ ] Implementar po @media para 768px
 - [ ] Implementar @media para 320px
-- [ ] Concluir validação de Formulário
-- [ ] Concluir popUp do iframe
-- [ ] Testes unitários
+- [x] Concluir validação de Formulário
+- [x] Concluir popUp do iframe
+- [ ] Testes de simulação do uso
 - [ ] Implementar carrossel
 - [ ] Implementar menu sanduiche
 
