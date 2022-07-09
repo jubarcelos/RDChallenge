@@ -6,7 +6,7 @@
   left: 108px;
   top: 1283px;
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  background-image: url(/Assets/images/check_list.png);
+  background-image: url(../../Assets//images/check_list.png);
   background-repeat: no-repeat;
   z-index: 2;
 }

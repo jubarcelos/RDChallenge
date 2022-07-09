@@ -1,4 +1,4 @@
-// MENU
+// MENU drop down
 
 const menu = document.querySelector(".menu");
 const menuTwo = document.querySelectorAll(".header__nav_item")[1];
@@ -7,12 +7,13 @@ function handleMenu() {
   menu.classList.toggle("menu_opened");
 }
 
-menuTwo.addEventListener("click", () => {
+menuTwo.addEventListener("click", function() {
   handleMenu();
 });
 
 
-// FORM 
+// FORM input select options
+const selectJob = document.querySelector('.select-job');
 const jobs = [
   'Sócio(a) / CEO / Proprietário(a)',
   'Diretor(a) de Vendas',
@@ -29,75 +30,47 @@ const jobs = [
   'Outros Cargos',
 ];
 
-const selectJob = document.querySelector('.select-job');
-const allForm = document.querySelector('hero-form');
-const clearForm = () => { allForm.innerHTML = ''; };
-const website = document.querySelectorAll('.website');
-const allInput = document.querySelectorAll('.form__input');
-const submit = document.querySelector('#submit-btn');
-
 function addOptionsToSelectJobs(jobs) {
   return jobs.forEach((job, key) => selectJob[key + 1] = new Option(job, key + 1));
 }
 
 selectJob.addEventListener('click', addOptionsToSelectJobs(jobs));
 
-let inputWebsite = '';
-let inputJob = '';
+// FORM write website change the radio input
 
-function checkJobInput() {
-  selectJob.forEach((input) => {
-    input.addEventListener('click', (event) => {
-      selectJob = event.target.value;
-    });
-  });
+const website = document.querySelectorAll('.form__input_radio');
+const mySite = document.getElementById('radio_true');
+const websiteAdress = document.getElementById('website-true');
+
+function changeRadioInput(){
+  mySite.checked = true;
+  mySite.required = true;
 }
 
-function checkFormSubmit() {
-  return allInput.forEach((input) => {
-    if (input.value !== '') {
-      submit.disabled = false;
-    } else {
-      submit.disabled = true;
-    }
-  });
+function handleWebsiteInput(){
+  const userValue = websiteAdress.value;
+  websiteAdress.value = `http://${websiteAdress.value}`;
 }
 
-let formAnswers = [];
+websiteAdress.addEventListener('keypress',changeRadioInput());
+websiteAdress.addEventListener('change', handleWebsiteInput);
+//Mask phone number
 
-function saveFormInformation() {
-  const currentFormAnswers = {
-    name: document.querySelector('.input-name').value,
-    email: document.qduerySelector('.input-email').value,
-    phone: document.querySelector('.input-phone').value,
-    job: checkJobInput(),
-    password: document.querySelector('.input-password').value,
-    website: checkJobInput(),
-  }
-  return formAnswers.push(currentFormAnswers);
+const tel = document.getElementById('input-phone')
+function maskPhone(valor) {
+  valor = valor.replace(/\D/g, "")
+  valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+  valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+  tel.value = valor
 }
+tel.addEventListener('keypress', (event) => maskPhone(event.target.value));
+tel.addEventListener('change', (event) => maskPhone(event.target.value));
 
-function submitFormAnswer() {
-  const endMessage = "Obrigado!, entraremos em contato"
-  allForm.innerHTML = endMessage;
-}
+const password = document.getElementById('input-password');
+const checkPassword = document.getElementById('input-confirme-password')
 
-function onFormSubmit() {
-  checkFormSubmit();
-  saveFormInformation();
-  clearForm();
-  submitFormAnswer();
-}
 
-// submit.addEventListener('click', (event) => {
-//   event.preventDefault();
-//   checkFormSubmit();
-//   saveFormInformation();
-//   clearForm();
-//   submitFormAnswer();
-// });
-
-//DEMO - IFRAME
+//DEMO - show IFRAME
 
 const iframe = document.querySelector(".demo__iframe");
 const playButton = document.querySelector(".button__demo");
@@ -106,6 +79,5 @@ function handleIframe() {
   iframe.style.display = "flex";
 }
 
-playButton.addEventListener("click", () => {
-  handleIframe();
-});
+playButton.addEventListener("click", handleIframe);
+
