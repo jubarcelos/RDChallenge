@@ -1,35 +1,6 @@
 const allForm = document.querySelector('.form');
 const allInput = document.querySelectorAll('.form__input');
 const submit = document.querySelector('#submit-btn');
-    
-function ValidateField(field) {
-  function verifyErrors() {
-    let foundError = false;
-
-    for(let error in field.validity) {
-      if (field.validity[error] && !field.validity.valid ) {
-        foundError = error
-      }
-    }
-    return foundError;
-  }
-
-  function customMessage(typeError) {
-    const messages = {
-      text: {
-        valueMissing: "É necessário o preenchimento deste campo."
-      },
-      email: {
-        valueMissing: "É necessário o preenchimento deste campo.",
-        typeMismatch: "Por favor, preencha um email válido"
-      },
-      job: {
-
-      }
-    }
-    return messages[field.type][typeError]
-  };
-};
 
 const clearForm = function() { allForm.innerHTML = ''; };
 
