@@ -8,3 +8,18 @@
   z-index: 1;
   position: absolute;
 }
+
+@media screen and (max-width: 767px){
+  .list__shape {
+    width: 767px;
+    height: 900px;
+    left: 938px;
+    top: 1899px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .list__shape {
+    width: 360px;
+  }
+}

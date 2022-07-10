@@ -6,3 +6,8 @@
   width: 1224px;
   height: 396px;
 }
+@media screen and (max-width: 767px){
+  .cta__shape {
+    display: none;
+  }
+}

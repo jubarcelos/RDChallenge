@@ -4,3 +4,8 @@
   padding: 0 44px;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 767px){
+  .logo-tolls {
+    display: none;
+  }
+}

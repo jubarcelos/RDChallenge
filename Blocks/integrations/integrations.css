@@ -14,3 +14,9 @@
   gap: 45px;
   z-index: 0;
 }
+
+@media screen and (max-width: 767px){
+  .integrations {
+    display: none;
+  }
+}

@@ -1,6 +1,7 @@
 .together__shape {
   position: absolute;
   background-image: url(../../../Assets/shapes/shape__together.png);
+  background-repeat: no-repeat;
   width: 96px;
   height: 96px;
   left: 0;
@@ -9,4 +10,9 @@
   overflow: hidden;
 }
 
-
+@media screen and (max-width: 767px){
+  .together__shape {
+    left: 0px;
+    top: 1500px;
+  }
+}

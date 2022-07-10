@@ -15,3 +15,17 @@
   color: var(--cor-close-gray);
   padding: 0 24px;
 }
+
+@media screen and (max-width: 767px){
+  .form {
+    max-width: 767px;
+    top: 460px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .form {
+    width: 328px;
+    top: 749px;
+  }
+}

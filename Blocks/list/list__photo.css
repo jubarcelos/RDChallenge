@@ -10,3 +10,9 @@
   background-repeat: no-repeat;
   z-index: 2;
 }
+
+/* @media screen and (max-width: 767px){
+  .list__photo {
+    display: none;
+  }
+} */

@@ -9,3 +9,9 @@
   height: 244px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px){
+  .integrations__elements {
+    display: none;
+  }
+}

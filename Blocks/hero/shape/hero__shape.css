@@ -5,8 +5,26 @@
   grid-row-start: 2;
   grid-column-end: 3;
   background-image: url(../../../Assets/shapes/shape__hero.png);
+  background-repeat: no-repeat;
   width: 1440px;
   height: 650px;
   z-index: 0;
   position: absolute;
+}
+
+@media screen and (max-width: 767px){
+  .hero__shape {
+    width: 778px;
+    height: 1500px;
+    top: 94px;
+    left: -10px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .hero__shape {
+    width: 360px;
+    height: 1400px;
+    left: 0;
+  }
 }

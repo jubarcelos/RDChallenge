@@ -10,3 +10,9 @@
   top: 1963px;
   padding-top:120px;
 }
+
+@media screen and (max-width: 767px){
+  .benefits {
+    display: none;
+  }
+}

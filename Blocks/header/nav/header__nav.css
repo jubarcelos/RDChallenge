@@ -10,7 +10,8 @@
   top: 32px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 360px){  .header__nav {
+@media screen and (max-width: 767px) { 
+  .header__nav {
     display: none;
   }
 }

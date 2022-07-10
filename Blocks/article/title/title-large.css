@@ -3,3 +3,9 @@
   font-size: 56px;
   line-height: 1.0;
 }
+
+@media screen and (max-width: 767px){
+  .title-large {
+    font-size: 40px;
+  }
+}

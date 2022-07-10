@@ -15,3 +15,11 @@
   background: var(--cor-off-white);
   border: 1px solid var(--cor-light-blue);
 }
+
+
+@media screen and (max-width: 360px){
+  .button__hero-yellow {
+    width: 251px;
+    height: 40px;
+  }
+}

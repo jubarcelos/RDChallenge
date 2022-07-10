@@ -7,3 +7,9 @@
   list-style-image: url(../../Assets/icons/checkmark/Vector.png);
   z-index: 3;
 }
+
+/* @media screen and (max-width: 767px){
+  .list__itens {
+    display: none;
+  }
+} */

@@ -11,3 +11,9 @@
   left: 108px;
   top: 210px;
 }
+
+@media screen and (max-width: 767px){
+  .demo__texts {
+    display: none;
+  }
+}

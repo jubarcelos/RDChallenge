@@ -12,3 +12,9 @@
   column-gap: 24px;
   padding-top: 48px;
 }
+
+@media screen and (max-width: 767px){
+  .benefits__cards {
+    display: none;
+  }
+}

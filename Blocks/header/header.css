@@ -10,8 +10,19 @@
   align-items: center;
 }
 
-@media screen and (max-width: 767px) and (min-width: 360px){  .header {
+@media screen and (max-width: 767px){  
+  .header {
     max-width: 767px;
-    height: 64px;
+    height: 96px;
+    justify-content: space-between;
+    left: 108px;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 360px){  
+  .header {
+    max-width: 360px;
+    left: 16px;
   }
 }

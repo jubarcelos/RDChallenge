@@ -1,6 +1,7 @@
 .menu__sanduiche {
-  background-image: url(../../../../Assets/icons/button_indicator/sanduiche_menu.png);
-  background-repeat: no-repeat;
+  /* background-image: url(../../../../Assets/icons/button_indicator/sanduiche_menu.png);
+  background-repeat: no-repeat; */
+  z-index: 4;
   position: absolute;
   width: 32px;
   height: 32px;

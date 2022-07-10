@@ -32,6 +32,7 @@
 
 @import url(../Blocks/hero/hero.css);
 @import url(../Blocks/hero/shape/hero__shape.css);
+@import url(../Blocks/hero/shape/hero__shape_media.css);
 @import url(../Blocks/article/article__hero.css);
 @import url(../Blocks/article/article__together.css);
 @import url(../Blocks/article/article__list.css);

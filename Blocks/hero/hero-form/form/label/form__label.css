@@ -4,9 +4,20 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 0.24;
-  display: block;
+  display: flex;
   margin-top: 16px;
   text-align: start;
   color: var(--cor-black);
-  align-self: flex-start;
+}
+
+@media screen and (max-width: 767px){
+  .form__label {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .form__label {
+    max-width: 280px;
+  }
 }

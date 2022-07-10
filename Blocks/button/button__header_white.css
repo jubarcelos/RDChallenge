@@ -11,7 +11,8 @@
   border: 1px solid var(--cor-light-blue);
 }
 
-@media screen and (max-width: 767px) and (min-width: 360px){  .button__header_white {
+@media screen and (max-width: 767px){  
+  .button__header_white {
     display: none;
   }
 }
