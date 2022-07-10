@@ -15,16 +15,17 @@
 
 @media screen and (max-width: 767px){
   .list__photo {
-    top: 2474px;
-    left: 70px;
+    max-width: 567px;
+    top: 2584px;
+    left: 43px;
   }
 }
 
 @media screen and (max-width: 360px){
   .list__photo {
-    width: 328px;
+    width: 318px;
     height: 325px;
-    left: 15px;
-    top: 2504px;
+    left: 8px;
+    top: 2550px;
   }
 }

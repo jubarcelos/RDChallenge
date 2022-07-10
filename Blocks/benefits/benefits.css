@@ -3,16 +3,38 @@
   grid-row-end: 5;
   gap:24px;
   position: absolute;
-  overflow: hidden;
-  width: 1224px;
-  height: 1074px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 1440px;
+  height: 1284px;
   left: 108px;
-  top: 1963px;
-  padding-top:120px;
+  top: 1893px;
+  /* padding-top: 120px; */
 }
+
+/* @media screen and (max-width: 767px){
+  .benefits {
+    max-width: 767px;
+    height: 1500px;
+    top: 3060px;
+    left: 0;
+  }
+} */
 
 @media screen and (max-width: 767px){
   .benefits {
-    display: none;
+    width: 392px;
+    height: 750px;
+    top: 3080px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .benefits {
+    height: 750px;
+    top: 2840px;
+    left: 16px;
+
   }
 }

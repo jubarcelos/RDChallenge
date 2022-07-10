@@ -5,3 +5,20 @@
   color: var( --cor-white);
   width: 600px;
 }
+
+@media screen and (max-width: 767px){
+  .title-medium {
+    font-size: 32px;
+    line-height: 1.0;
+    max-width: 500px;
+    max-height: 96px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .title-medium {
+    font-size: 24px;
+    line-height: 1.1;
+    width: 260px;
+  }
+}

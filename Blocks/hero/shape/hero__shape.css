@@ -14,11 +14,10 @@
 
 @media screen and (max-width: 767px){
   .hero__shape {
-    width: 778px;
+    width: 767px;
     height: 1500px;
     top: 94px;
     left: -10px;
-    /* display: none; */
   }
 }
 

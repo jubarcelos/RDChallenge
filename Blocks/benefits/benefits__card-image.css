@@ -11,8 +11,16 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 360px){
   .benefits__card-image {
-    display: none;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .benefits__card-image {
+    width: 48px;
+    height: 48px;
   }
 }

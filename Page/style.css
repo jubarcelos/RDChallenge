@@ -78,6 +78,10 @@
 @import url(../Blocks/benefits/benefits__cards.css);
 @import url(../Blocks/benefits/benefits__card-image.css);
 
+@import url(../Blocks/benefits/carousel/carousel__nav.css);
+@import url(../Blocks/benefits/carousel/carousel__indicator.css);
+
+
 @import url(../Blocks/cta/cta.css);
 @import url(../Blocks/cta/cta__shape.css);
 

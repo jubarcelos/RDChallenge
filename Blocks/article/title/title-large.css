@@ -7,5 +7,6 @@
 @media screen and (max-width: 767px){
   .title-large {
     font-size: 40px;
+    max-width: 500px;
   }
 }
