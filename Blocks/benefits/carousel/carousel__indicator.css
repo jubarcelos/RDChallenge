@@ -1,0 +1,27 @@
+.carousel__indicator {
+  border: 0;
+  background: var(--cor-medium-blue);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: 12px;
+  top: 12px;
+  display: none;
+}
+
+.carousel__indicator.current-slide {
+  background: var(--cor-medium-blue);
+  opacity: 0.3;
+  display: none;
+}
+
+@media screen and (max-width: 767px){
+  .carousel__indicator {
+    display: flex;
+  }
+
+  .carousel__indicator.current-slide {
+    display: flex;
+  }
+}
+

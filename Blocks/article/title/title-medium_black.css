@@ -1,13 +1,19 @@
 .title-medium_black {
   color: var(--cor-graphite);
-  width: 600px;
-  height: 80px;
-  margin-top: 140px;
   position: absolute;
 }
 
 @media screen and (max-width: 767px){
   .title-medium_black {
     width: 328px;
+    height: 80px;
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .title-medium_black {
+    width: 328px;
+    top: 100px;
   }
 }

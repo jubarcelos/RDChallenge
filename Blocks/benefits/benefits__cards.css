@@ -1,6 +1,5 @@
 .benefits .benefits__cards {
   position: absolute;
-  width: 1224px;
   height: 784px;
   color: var(--cor-graphite);
   display: flex;
@@ -28,21 +27,16 @@
 
 @media screen and (max-width: 767px){
   .benefits__cards {
-    position: relative;
+    width: 392px;
+    height: 700px;
     flex-wrap: unset;
     justify-content: center;
     align-items: center;;
-    max-width: 392px;
-    height: 441px;
-    margin-bottom: -190px;
   }
 }
 
 @media screen and (max-width: 360px){
   .benefits__cards {
-    max-width: 328px;
-    height: 441px;
-    flex-wrap: unset;
-    padding: 48px 0 0 0;
+    width: 328px;
   }
 }

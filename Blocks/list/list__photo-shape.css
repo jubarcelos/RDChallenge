@@ -13,5 +13,6 @@
 @media screen and (max-width: 360px){
   .list__photo-shape {
     display: flex;
+    top: 2003px;
   }
 }

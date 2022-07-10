@@ -1,7 +1,6 @@
 .benefits {
-  grid-row-start: 5;
-  grid-row-end: 5;
   gap:24px;
+  overflow: hidden;
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -10,7 +9,7 @@
   height: 1284px;
   left: 108px;
   top: 1893px;
-  /* padding-top: 120px; */
+  padding-top: 120px;
 }
 
 /* @media screen and (max-width: 767px){
@@ -24,9 +23,11 @@
 
 @media screen and (max-width: 767px){
   .benefits {
+    overflow: visible;
     width: 392px;
     height: 750px;
     top: 3080px;
+    padding-top: 0;
   }
 }
 

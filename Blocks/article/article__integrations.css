@@ -7,8 +7,13 @@
   width: 600px;
   height: 244px;
   color: var(--cor-graphite);
+  top:0;
 }
 
 .article__integrations p {
   color: var(--cor-graphite);
+}
+
+.content_medium {
+  margin: 120px 0 0 0;
 }
