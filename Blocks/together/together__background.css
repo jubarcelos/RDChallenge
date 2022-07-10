@@ -15,12 +15,13 @@
   .together__background {
     top: 1559px;
     width:768px;
+    height: 340px;
   }
 }
 
 @media screen and (max-width: 360px){
   .together__background {
-    width:360px;
+    width: 360px;
     top: 1520px;
   }
 }

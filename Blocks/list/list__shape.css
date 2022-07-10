@@ -1,6 +1,9 @@
 .list__shape {
   grid-row: 3;
   background-image: url(../../../Assets/shapes/shape__list.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
   width: 1440px;
   height: 902px;
   left: 0;
@@ -13,13 +16,13 @@
   .list__shape {
     width: 767px;
     height: 900px;
-    left: 938px;
-    top: 1899px;
+    top: 1890px;
   }
 }
 
 @media screen and (max-width: 360px){
   .list__shape {
     width: 360px;
+    top: 1850px;
   }
 }

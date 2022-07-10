@@ -4,3 +4,10 @@
   line-height: 1.5;
   color: var( --cor-white);
 }
+
+@media screen and (max-width: 767px){
+  .content_small {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}

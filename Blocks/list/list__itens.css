@@ -8,8 +8,16 @@
   z-index: 3;
 }
 
-/* @media screen and (max-width: 767px){
+@media screen and (max-width: 767px){
   .list__itens {
-    display: none;
+    width: 500px;
   }
-} */
+}
+
+@media screen and (max-width: 360px){
+  .list__itens {
+    top: 1979px;
+    padding-left: 30px;
+    width:300px;
+  }
+}

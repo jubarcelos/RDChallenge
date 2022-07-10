@@ -18,3 +18,19 @@
   color: var(--cor-graphite);
 }
 
+
+
+@media screen and (max-width: 767px){
+  .article__list {
+    left: 150px;
+    top: 1919px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .article__list {
+    left: 20px;
+    top: 1870px;
+    width: 328px;
+  }
+}

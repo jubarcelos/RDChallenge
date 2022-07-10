@@ -5,14 +5,26 @@
   height: 600px;
   left: 108px;
   top: 1283px;
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  background-image: url(../../Assets//images/check_list.png);
+  background-image: url(../../Assets/images/check_list.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  background-size: center;
   z-index: 2;
 }
 
-/* @media screen and (max-width: 767px){
+@media screen and (max-width: 767px){
   .list__photo {
-    display: none;
+    top: 2474px;
+    left: 70px;
   }
-} */
+}
+
+@media screen and (max-width: 360px){
+  .list__photo {
+    width: 328px;
+    height: 325px;
+    left: 15px;
+    top: 2504px;
+  }
+}

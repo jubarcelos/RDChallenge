@@ -1,0 +1,17 @@
+.list__photo-shape {
+  position: absolute;
+  background-image: url(../../Assets/shapes/list-img-shape.png);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  left: 279px;
+  top: 2503px;
+  z-index: 3;
+  display: none;
+}
+
+@media screen and (max-width: 360px){
+  .list__photo-shape {
+    display: flex;
+  }
+}
