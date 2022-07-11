@@ -12,11 +12,9 @@
 
 @media screen and (max-width: 767px){  
   .header {
-    max-width: 767px;
+    width: 767px;
     height: 96px;
-    justify-content: space-between;
-    left: 108px;
-    padding: 30px;
+    justify-items: space-between;
   }
 }
 
