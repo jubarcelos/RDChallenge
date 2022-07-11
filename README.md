@@ -29,7 +29,7 @@ Falta concluir:
 - [x] Concluir validação de Formulário
 - [x] Concluir popUp do iframe
 - [ ] Testes de simulação do uso
-- [ ] Implementar carrossel
+- [x] Implementar carrossel
 - [ ] Implementar menu sanduiche
 
 
