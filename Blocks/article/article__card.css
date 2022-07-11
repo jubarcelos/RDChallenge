@@ -1,4 +1,5 @@
 .article__card {
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -10,11 +11,25 @@
   box-shadow: 0px 4px 12px rgba(33, 36, 41, 0.14);
   border-radius: 2px;
   z-index: 2;
-  align-content: center;
   color: var(--cor-graphite);
-
 }
 
 .article__card p, .article__card h3 {
   color: var(--cor-graphite);
+}
+
+
+@media screen and (max-width: 767px){
+  .article__card {
+    position: absolute;
+    justify-content: center;
+    width: 392px;
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .article__card {
+    width: 318px;
+  }
 }

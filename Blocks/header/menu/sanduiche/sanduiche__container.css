@@ -1,0 +1,30 @@
+.sanduiche__container {
+  display: none;
+}
+
+.sanduiche__grid-one {
+  grid-row: 1;
+  display: none;
+  flex-direction: column;
+}
+
+.sanduiche__grid-two {
+  grid-row: 2;
+  display: none;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) { 
+  .sanduiche__container {
+    display: none;
+    top: 200px;
+    right: 24px;
+    width: 360px;
+    height: 408px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 57px;
+    z-index: 5;
+  }
+}

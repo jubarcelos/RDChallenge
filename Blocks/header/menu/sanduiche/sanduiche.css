@@ -1,0 +1,28 @@
+.sanduiche {
+  background-image: url(../../../../Assets/icons/button_indicator/sanduiche_menu.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  z-index: 4;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 28px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) { 
+  .sanduiche {
+    display: flex;
+    justify-self: flex-end;
+    margin: 0 0 0 auto;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 360px) { 
+  .sanduiche {
+    display: flex;
+    justify-self: flex-end;
+    padding: 0 0 0 16px;
+  }
+}

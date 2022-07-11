@@ -1,5 +1,4 @@
 .button__hero-yellow {
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,4 +14,12 @@
 .button__hero-yellow:hover {
   background: var(--cor-off-white);
   border: 1px solid var(--cor-light-blue);
+}
+
+
+@media screen and (max-width: 360px){
+  .button__hero-yellow {
+    width: 251px;
+    height: 40px;
+  }
 }

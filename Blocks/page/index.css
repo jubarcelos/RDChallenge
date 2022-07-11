@@ -33,3 +33,17 @@ html {
   grid-template-rows: repeat(9, auto);
   grid-gap: 24px;
 }
+
+@media screen and (max-width: 767px) {
+    .page {
+    width: 767px;
+    display: grid;
+    grid-template-columns: (1, 1fr);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .page {
+    width: 360px;
+  }
+}

@@ -11,59 +11,111 @@
     <header class="header">
       <img
         class="header__logo"
-        src="/Assets/images/RD_logo.png"
+        src="../Assets/images/RD_logo.png"
         alt="Logo da empresa RD station"
-      />
-      <nav class="header__nav">
-        <div class="header__nav_item">Menu 1</div>
-        <div class="header__nav_item">
-          Menu 2
-          <div class="menu">
-            <!-- <div class="menu__background"></div>
-            Para implementar o fechamento clicando no backgroud se der tempo-->
-            <div class="menu__container">
-              <ul class="container__grid-one">
-                <h2 class="menu__title">METODOLOGIA</h2>
-                <li class="menu__item">Tudo sobre Inbound Marketing</li>
-              </ul>
-              <ul class="container__grid-two">
-                <h2 class="menu__title">CURSOS</h2>
-                <li class="menu__item">RD University</li>
-                <li class="menu__item">Introdução ao Inbound Marketing</li>
-                <li class="menu__item">RD Station Marketing Basic</li>
-              </ul>
-              <ul class="container__grid-three">
-                <h2 class="menu__title">FERRAMENTAS</h2>
-                <li class="menu__item">Avalie seu funil de vendas</li>
-                <li class="menu__item">
-                  Compare suas métricas de Email Marketing
-                </li>
-                <li class="menu__item">
-                  Calcule o ROI do RD Station Marketing
-                </li>
-              </ul>
+        />
+      <div class="sanduiche"></div>
+      <div class="menu__sanduiche">
+        <div class="sanduiche__container">
+          <nav class="header__nav sanduiche__grid-one display_none">
+            <div class="header__nav_item display_none">Menu 1</div>
+            <div class="header__nav_item">
+              Menu 2
+              <div class="menu">
+                <!-- <div class="menu__background"></div>
+                Para implementar o fechamento clicando no backgroud se der tempo-->
+                <div class="menu__container">
+                  <ul class="container__grid-one">
+                    <h2 class="menu__title">METODOLOGIA</h2>
+                    <li class="menu__item">Tudo sobre Inbound Marketing</li>
+                  </ul>
+                  <ul class="container__grid-two">
+                    <h2 class="menu__title">CURSOS</h2>
+                    <li class="menu__item">RD University</li>
+                    <li class="menu__item">Introdução ao Inbound Marketing</li>
+                    <li class="menu__item">RD Station Marketing Basic</li>
+                  </ul>
+                  <ul class="container__grid-three">
+                    <h2 class="menu__title">FERRAMENTAS</h2>
+                    <li class="menu__item">Avalie seu funil de vendas</li>
+                    <li class="menu__item">
+                      Compare suas métricas de Email Marketing
+                    </li>
+                    <li class="menu__item">
+                      Calcule o ROI do RD Station Marketing
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <div class="header__nav_item">Menu 3</div>
+            <div class="header__nav_item">Menu 4</div>
+            <div class="header__nav_item">Menu 5</div>
+          </nav>
+          <nav class="sanduiche__buttons sanduiche__grid-two display_none">
+            <a href="" class="button button__header_white">Button</a>
+            <a href="" class="button button__header_blue">Button
+              <img
+              class="button__icon"
+              src="../Assets/icons/button_indicator/right.png"
+              alt="seta indicando para direita"
+              />
+            </a>
+          </nav>
+        </div>
+      <div class="sanduiche_close-btn"></div>
+    </div>
+    <nav class="header__nav">
+      <div class="header__nav_item">Menu 1</div>
+      <div class="header__nav_item">
+        Menu 2
+        <div class="menu">
+          <!-- <div class="menu__background"></div>
+          Para implementar o fechamento clicando no backgroud se der tempo-->
+          <div class="menu__container">
+            <ul class="container__grid-one">
+              <h2 class="menu__title">METODOLOGIA</h2>
+              <li class="menu__item">Tudo sobre Inbound Marketing</li>
+            </ul>
+            <ul class="container__grid-two">
+              <h2 class="menu__title">CURSOS</h2>
+              <li class="menu__item">RD University</li>
+              <li class="menu__item">Introdução ao Inbound Marketing</li>
+              <li class="menu__item">RD Station Marketing Basic</li>
+            </ul>
+            <ul class="container__grid-three">
+              <h2 class="menu__title">FERRAMENTAS</h2>
+              <li class="menu__item">Avalie seu funil de vendas</li>
+              <li class="menu__item">
+                Compare suas métricas de Email Marketing
+              </li>
+              <li class="menu__item">
+                Calcule o ROI do RD Station Marketing
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="header__nav_item">Menu 3</div>
-        <div class="header__nav_item">Menu 4</div>
-        <div class="header__nav_item">Menu 5</div>
-      </nav>
-      <nav class="header__buttons">
-        <a href="" class="button button__header_white">Button</a>
-        <a href="" class="button button__header_blue"
-          >Button
-          <img
-            class="button__icon"
-            src="../Assets/icons/button_indicator/right.png"
-            alt="seta indicando para direita"
-          />
-        </a>
-      </nav>
+      </div>
+      <div class="header__nav_item">Menu 3</div>
+      <div class="header__nav_item">Menu 4</div>
+      <div class="header__nav_item">Menu 5</div>
+    </nav>
+    <nav class="header__buttons">
+      <a href="" class="button button__header_white">Button</a>
+      <a href="" class="button button__header_blue"
+        >Button
+        <img
+          class="button__icon"
+          src="../Assets/icons/button_indicator/right.png"
+          alt="seta indicando para direita"
+        />
+      </a>
+    </nav>
     </header>
     <main class="main__content">
       <div class="hero">
         <div class="hero__shape"></div>
+        <div class="hero__shape_media"></div>
         <article class="article__hero">
           <h1 class="title title-large">
             Gere mais <span class="article__span-blue">oportunidades</span> para
@@ -116,7 +168,9 @@
               placeholder="Insira seu e-mail"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               />
-            <label class="form__label" for="input-phone"> Seu telefone </label>
+            <label class="form__label" for="input-phone">
+              Seu telefone 
+            </label>
             <input
               class="form__input"
               autocomplete="off"
@@ -165,7 +219,7 @@
             <input
               class="form__input"
               autocomplete="off"
-              name="password"
+              name="check-password"
               value=""
               type="password"
               required
@@ -185,7 +239,9 @@
                 name="website"
                 value="true"
               />
-              <label for="true" class="form__label-radio"> Meu site é </label>
+              <label for="true" class="form__label-radio">
+                Meu site é
+              </label>
               <input
                 class="form__input"
                 autocomplete="off"
@@ -262,6 +318,7 @@
       <section class="list">
         <div class="list__shape"></div>
         <div class="list__photo"></div>
+        <div class="list__photo-shape"></div>
         <article class="article__list">
           <h2 class="title title-small">
             Resultados previsíveis e mais clientes para sua empresa
@@ -402,6 +459,14 @@
               português.
             </p>
           </article>
+        </div>
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
         </div>
       </section>
       <section class="cta">

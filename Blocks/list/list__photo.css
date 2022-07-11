@@ -5,8 +5,27 @@
   height: 600px;
   left: 108px;
   top: 1283px;
-  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  background-image: url(../../Assets//images/check_list.png);
+  background-image: url(../../Assets/images/check_list.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  background-size: center;
   z-index: 2;
+}
+
+@media screen and (max-width: 767px){
+  .list__photo {
+    max-width: 567px;
+    top: 2584px;
+    left: 43px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .list__photo {
+    width: 318px;
+    height: 325px;
+    left: 8px;
+    top: 2650px;
+  }
 }

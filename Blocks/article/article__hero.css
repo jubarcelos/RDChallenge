@@ -12,3 +12,16 @@
   gap: 40px;
   color: var(--cor-graphite);
 }
+
+@media screen and (max-width: 767px){
+  .article__hero {
+    width: 328px;
+    top: 120px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .article__hero {
+    left: 15px;
+  }
+}

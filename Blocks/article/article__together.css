@@ -7,7 +7,24 @@
   z-index: 4;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-content: center;
   gap: 24px;
+}
+
+@media screen and (max-width: 767px){
+  .article__together {
+    left: 36px;
+    top: 1580px;
+    width: 500px;
+    padding: 48px 16px 32px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .article__together {
+    width: 328px;
+    left: 6px;
+    top: 1545px;
+  }
 }

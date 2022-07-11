@@ -9,3 +9,18 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media screen and (max-width: 767px){  
+  .header {
+    width: 767px;
+    height: 96px;
+    justify-items: space-between;
+  }
+}
+
+@media screen and (max-width: 360px){  
+  .header {
+    max-width: 360px;
+    left: 16px;
+  }
+}

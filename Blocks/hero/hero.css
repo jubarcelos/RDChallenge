@@ -10,3 +10,16 @@
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (max-width: 767px){
+  .hero {
+    width: 767px;
+    height: 1519px;
+  }
+}
+
+
+@media screen and (max-width: 360px){
+  .hero {
+    width: 328px;
+  }
+}

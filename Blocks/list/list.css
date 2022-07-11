@@ -8,3 +8,11 @@
   gap: 113px;
   z-index: 2;
 }
+
+@media screen and (max-width: 767px){
+  .list {
+    flex-direction: column;
+    width: 767px;
+    height: 1400px;
+  }
+}

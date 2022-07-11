@@ -14,3 +14,17 @@
   background-repeat: no-repeat;
   z-index: 1;
 }
+
+
+@media screen and (max-width: 767px){
+  .footer {
+    width: 768px;
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 360px){
+  .footer {
+    width: 360px;
+  }
+} */

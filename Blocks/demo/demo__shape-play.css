@@ -11,3 +11,8 @@
   top: 250px;
   z-index: 3;
 }
+@media screen and (max-width: 767px){
+  .demo__shape-play {
+    display: none;
+  }
+}

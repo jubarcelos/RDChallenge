@@ -3,13 +3,53 @@
 const menu = document.querySelector(".menu");
 const menuTwo = document.querySelectorAll(".header__nav_item")[1];
 
+const sanduicheIcon = document.querySelector('.sanduiche');
+const sanduicheMenu  = document.querySelector('.menu__sanduiche');
+const sanduicheBox = document.querySelector('.sanduiche__container');
+const navMenu = document.querySelector('.header__nav');
+const closeBtn = document.querySelector('.sanduiche_close-btn');
+
+function changeToExitIcon() {
+  sanduicheIcon.style.display = 'none';
+  closeBtn.style.display = 'flex';
+}
+
+function changeToSanduicheIcon() {
+  sanduicheIcon.style.display = 'flex';
+  closeBtn.style.display = 'none';
+}
+
+function openSanduicheMenu() {
+  sanduicheMenu.style.display = 'flex';
+  closeBtn.style.display = 'flex';
+  sanduicheBox.style.display = "flex";
+  navMenu.style.display = "flex";
+}
+
+function closeSanduicheMenu() {
+  sanduicheMenu.style.display = 'none';
+  closeBtn.style.display = 'none';
+  sanduicheBox.style.display = "none";
+  navMenu.style.display = "none";
+}
+
+sanduicheIcon.addEventListener('click', () =>{ 
+  changeToExitIcon();
+  openSanduicheMenu();
+});
+
+closeBtn.addEventListener('click', () =>{ 
+  closeSanduicheMenu();
+  changeToSanduicheIcon();
+});
+
 function handleMenu() {
   menu.classList.toggle("menu_opened");
 }
 
-menuTwo.addEventListener("click", function() {
-  handleMenu();
-});
+menuTwo.addEventListener("click", () => handleMenu());
+
+
 
 
 // FORM input select options
@@ -81,3 +121,40 @@ function handleIframe() {
 
 playButton.addEventListener("click", handleIframe);
 
+// carousel
+
+const indicator = document.querySelector('.carousel__indicator');
+const track = document.querySelector('.benefits__cards');
+const slides = Array.from(track.children);
+const dotsNav = document.querySelector('.carousel__nav');
+const dots = Array.from(dotsNav.children);
+
+const slideWidth = slides[0].getBoundingClientRect().width;
+
+function setSlidePosition(slide, index) {
+  slide.style.left = slideWidth * index + 'px';
+}
+
+slides.forEach(setSlidePosition);
+
+function moveToSlide(track, currentSlide, targetSlide) {
+  track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+  currentSlide.classList.remove('.current-slide');
+  targetSlide.classList.add('.current-slide');
+}
+
+dotsNav.addEventListener('click', event => {
+  const targetDot = event.target.closest('button');
+
+  if(!targetDot) return;
+
+  const currentSlide = track.querySelector('.current-slide');
+  const currentDot = dotsNav.querySelector('.current-slide');
+  const targetIndex = dots.findIndex(dot => dot === targetDot);
+  const targetSlide = slides[targetIndex];
+
+  moveToSlide(track, currentSlide, targetSlide)
+
+  currentDot.classList.remove('.current-slide');
+  targetDot.classList.add('.current-slide');
+})

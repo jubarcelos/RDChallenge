@@ -6,6 +6,7 @@
     "jest": "^28.1.2"
   },
   "dependencies": {
+    "cypress": "^10.3.0",
     "joi-browser": "^13.4.0"
   }
 }

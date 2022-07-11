@@ -1,0 +1,23 @@
+.hero__shape_media {
+  position: absolute;
+  background-color: var(--cor-off-white);
+  width: 767px;
+  height: 830px;
+  left: 0px;
+  top: 736px;
+  display: none;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px){
+  .hero__shape_media {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .hero__shape_media {
+    width: 360px;
+    top: 715px;
+  }
+}

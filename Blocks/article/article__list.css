@@ -17,3 +17,22 @@
 .article__list p, .article__list h2, .article__list li {
   color: var(--cor-graphite);
 }
+
+
+
+@media screen and (max-width: 767px){
+  .article__list {
+    left: 150px;
+    top: 1870px;
+    max-width: 350px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .article__list {
+    left: 5px;
+    top: 1880px;
+    width: 328px;
+  }
+}

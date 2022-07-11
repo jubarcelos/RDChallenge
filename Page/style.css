@@ -15,6 +15,14 @@
 @import url(../Blocks/header/menu/menu__title.css);
 @import url(../Blocks/header/menu/menu__item.css);
 
+@import url(../Blocks/header/menu/sanduiche/sanduiche.css);
+@import url(../Blocks/header/menu/sanduiche/sanduiche_close-btn.css);
+@import url(../Blocks/header/menu/sanduiche/menu__sanduiche);
+@import url(../Blocks/header/menu/sanduiche/sanduiche__container.css);
+@import url(../Blocks/header/menu/sanduiche/sanduiche_opened.css);
+@import url(../Blocks/header/menu/sanduiche/display_none.css);
+
+
 @import url(../Blocks/button/button.css);
 @import url(../Blocks/button/button__header_blue.css);
 @import url(../Blocks/button/button__header_white.css);
@@ -26,6 +34,7 @@
 
 @import url(../Blocks/hero/hero.css);
 @import url(../Blocks/hero/shape/hero__shape.css);
+@import url(../Blocks/hero/shape/hero__shape_media.css);
 @import url(../Blocks/article/article__hero.css);
 @import url(../Blocks/article/article__together.css);
 @import url(../Blocks/article/article__list.css);
@@ -64,11 +73,16 @@
 @import url(../Blocks/list/list.css);
 @import url(../Blocks/list/list__shape.css);
 @import url(../Blocks/list/list__photo.css);
+@import url(../Blocks/list/list__photo-shape.css);
 @import url(../Blocks/list/list__itens.css);
 
 @import url(../Blocks/benefits/benefits.css);
 @import url(../Blocks/benefits/benefits__cards.css);
 @import url(../Blocks/benefits/benefits__card-image.css);
+
+@import url(../Blocks/benefits/carousel/carousel__nav.css);
+@import url(../Blocks/benefits/carousel/carousel__indicator.css);
+
 
 @import url(../Blocks/cta/cta.css);
 @import url(../Blocks/cta/cta__shape.css);
@@ -100,7 +114,7 @@
 @import url(../Blocks/integrations/logo-tools/logo-tolls_zapier.css);
 
 @import url(../Blocks/footer/footer.css);
-@import url(../Blocks/footer/footer__up);
+/* @import url(../Blocks/footer/footer__up); */
 @import url(../Blocks/footer/footer__logo.css);
 @import url(../Blocks/footer/nav-links.css);
 @import url(../Blocks/footer/facebook.css);

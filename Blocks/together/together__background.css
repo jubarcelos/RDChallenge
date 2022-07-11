@@ -1,9 +1,27 @@
 .together__background {
   position: absolute;
+  overflow: hidden;
   width: 1440px;
   height: 331px;
   left: 0px;
   top: 730px;
   background: var( --cor-close-blue);
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 0;
+}
+
+@media screen and (max-width: 767px){
+  .together__background {
+    top: 1559px;
+    width:767px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .together__background {
+    width: 360px;
+    top: 1520px;
+  }
 }

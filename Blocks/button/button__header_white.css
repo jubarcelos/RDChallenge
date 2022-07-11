@@ -10,3 +10,9 @@
   background: var(--cor-off-white);
   border: 1px solid var(--cor-light-blue);
 }
+
+@media screen and (max-width: 767px){  
+  .button__header_white {
+    display: none;
+  }
+}

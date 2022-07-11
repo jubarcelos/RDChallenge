@@ -2,9 +2,42 @@
   width: 539px;
   display: flex;
   align-items: flex-start;
+  overflow: hidden;
   gap: 64px;
   width: 551px;
   height: 16px;
   left: 484px;
   top: 32px;
+}
+
+@media screen and (max-width: 767px) { 
+  .header__nav {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--cor-white);
+    padding: 0 16px;
+    width: 360px;
+    height: 165px;
+    top: 250px;
+    left: 80px;
+    gap: 0;
+    z-index: 6;
+  }
+}
+
+@media screen and (max-width: 360px) { 
+  .header__nav {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-white);
+    padding: 0 16px;
+    width: 360px;
+    height: 165px;
+    top: 350px;
+    left: 0;
+    gap: 0;
+    z-index: 5;
+  }
 }
