@@ -1,15 +1,16 @@
 .benefits {
-  gap:24px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 1440px;
+  gap:24px;
+  width: 1240px;
   height: 1284px;
-  left: 108px;
+  /* left: 108px; */
   top: 1893px;
   padding-top: 120px;
+  margin: 0 100px;
 }
 
 /* @media screen and (max-width: 767px){
@@ -23,19 +24,18 @@
 
 @media screen and (max-width: 767px){
   .benefits {
-    overflow: visible;
+    position: relative;
     width: 392px;
     height: 750px;
-    top: 3080px;
+    top: 0;
     padding-top: 0;
+    margin: 0 auto
   }
 }
 
 @media screen and (max-width: 360px){
   .benefits {
     height: 750px;
-    top: 2840px;
-    left: 16px;
-
-  }
+    margin: 0 16px;  
+}
 }

@@ -81,3 +81,48 @@ function handleIframe() {
 
 playButton.addEventListener("click", handleIframe);
 
+// carousel
+
+const indicator = document.querySelector('.carousel__indicator');
+const track = document.querySelector('.benefits__cards');
+const slides = Array.from(track.children);
+const dotsNav = document.querySelector('.carousel__nav');
+const dots = Array.from(dotsNav.children);
+
+const slideWidth = slides[0].getBoundingClientRect().width;
+
+function setSlidePosition(slide, index) {
+  slide.style.left = slideWidth * index + 'px';
+}
+
+slides.forEach(setSlidePosition);
+
+const currentSlide = track.querySelector('.current-slide');
+const currentDot = dotsNav.querySelector('.current-slide');
+
+function moveToSlide(track, currentSlide, targetSlide) {
+  track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+  updateSlides(currentSlide, targetSlide)
+}
+
+dotsNav.addEventListener('click', event => {
+  const targetDot = event.target.closest('button');
+  
+  if(!targetDot) return;
+  
+  const targetIndex = dots.findIndex(dot => dot === targetDot);
+  const targetSlide = slides[targetIndex];
+  
+  moveToSlide(track, currentSlide, targetSlide)
+  updateDots(currentDot, targetDot)
+})
+
+function updateSlides(currentSlide, targetSlide){
+  currentSlide.classList.remove('.current-slide');
+  targetSlide.classList.add('.current-slide');
+}
+
+function updateDots(currentDot, targetDot) {
+  currentDot.classList.remove('.current-slide');
+  targetDot.classList.add('.current-slide');
+}

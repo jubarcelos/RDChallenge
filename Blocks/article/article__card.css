@@ -12,7 +12,6 @@
   border-radius: 2px;
   z-index: 2;
   color: var(--cor-graphite);
-
 }
 
 .article__card p, .article__card h3 {
@@ -22,8 +21,9 @@
 
 @media screen and (max-width: 767px){
   .article__card {
-    padding: 24px;
     position: absolute;
+    justify-content: center;
+    width: 392px;
     top: 60px;
   }
 }

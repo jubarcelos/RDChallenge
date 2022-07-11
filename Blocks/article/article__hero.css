@@ -15,16 +15,13 @@
 
 @media screen and (max-width: 767px){
   .article__hero {
-    max-width: 767px;
+    width: 328px;
     top: 120px;
-    left: 15px;
   }
 }
 
 @media screen and (max-width: 360px){
   .article__hero {
-    width: 328px;
-    top: 120px;
     left: 15px;
   }
 }
