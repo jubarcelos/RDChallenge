@@ -97,32 +97,55 @@ function setSlidePosition(slide, index) {
 
 slides.forEach(setSlidePosition);
 
-const currentSlide = track.querySelector('.current-slide');
-const currentDot = dotsNav.querySelector('.current-slide');
-
 function moveToSlide(track, currentSlide, targetSlide) {
   track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
-  updateSlides(currentSlide, targetSlide)
-}
-
-dotsNav.addEventListener('click', event => {
-  const targetDot = event.target.closest('button');
-  
-  if(!targetDot) return;
-  
-  const targetIndex = dots.findIndex(dot => dot === targetDot);
-  const targetSlide = slides[targetIndex];
-  
-  moveToSlide(track, currentSlide, targetSlide)
-  updateDots(currentDot, targetDot)
-})
-
-function updateSlides(currentSlide, targetSlide){
   currentSlide.classList.remove('.current-slide');
   targetSlide.classList.add('.current-slide');
 }
 
-function updateDots(currentDot, targetDot) {
+dotsNav.addEventListener('click', event => {
+  const targetDot = event.target.closest('button');
+
+  if(!targetDot) return;
+
+  const currentSlide = track.querySelector('.current-slide');
+  const currentDot = dotsNav.querySelector('.current-slide');
+  const targetIndex = dots.findIndex(dot => dot === targetDot);
+  const targetSlide = slides[targetIndex];
+
+  moveToSlide(track, currentSlide, targetSlide)
+
   currentDot.classList.remove('.current-slide');
   targetDot.classList.add('.current-slide');
-}
+})
+
+
+// const currentSlide = track.querySelector('.current-slide');
+// const currentDot = dotsNav.querySelector('.current-slide');
+
+// function moveToSlide(track, currentSlide, targetSlide) {
+//   track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+//   updateSlides(currentSlide, targetSlide)
+// }
+
+// dotsNav.addEventListener('click', event => {
+//   const targetDot = event.target.closest('button');
+  
+//   if(!targetDot) return;
+  
+//   const targetIndex = dots.findIndex(dot => dot === targetDot);
+//   const targetSlide = slides[targetIndex];
+  
+//   moveToSlide(track, currentSlide, targetSlide)
+//   updateDots(currentDot, targetDot)
+// })
+
+// function updateSlides(currentSlide, targetSlide){
+//   currentSlide.classList.remove('.current-slide');
+//   targetSlide.classList.add('.current-slide');
+// }
+
+// function updateDots(currentDot, targetDot) {
+//   currentDot.classList.remove('.current-slide');
+//   targetDot.classList.add('.current-slide');
+// }

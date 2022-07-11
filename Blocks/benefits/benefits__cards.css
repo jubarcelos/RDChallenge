@@ -34,7 +34,8 @@
     flex-wrap: unset;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    gap: 15%;
+    /* overflow: hidden; */
     top: 100px;
   }
 }
