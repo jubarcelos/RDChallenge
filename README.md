@@ -15,26 +15,30 @@ Para executar os testes e vê-los rodando em uma janela de navegador:
 
 npm run cypress:open
 
-# ou -->
+# ou
 npx cypress open
 Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js), ou para executar todos os testes clique em Run all specs
 
 PS: Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.
-
+ -->
 Falta concluir:
 
 - [x] Implementar o footer
-- [ ] Implementar po @media para 768px
-- [ ] Implementar @media para 320px
 - [x] Concluir validação de Formulário
 - [x] Concluir popUp do iframe
-- [ ] Testes de simulação do uso
 - [x] Implementar carrossel
-- [ ] Implementar menu sanduiche
+- [ ] concluir implementação do menu sanduiche
+- [ ] Concluir a implementação po @media para 768px
+- [ ] Concluir a implementação @media para 320px
+- [ ] Testes de simulação do uso
 
 
+<!-- 
 Avaliação do desafio:
 
-Interessante, não consegui executar em 3 dias, mas pretendo concluir.
-
+Interessante, bastante desafiador trabalhar só com CSS, HTML e JS.
+Consegui perceber que a estratégia de começar pela web me fez perder muito tempo no CSS. 
+Não me atentei a trabalhar com em, ou % e acabei precsisando reajustar muitas coisas sempre.
+Enfim, valeu o aprendizado, foram muitas buscas para resolver alguns proplemas que tive no caminho.
+ -->
 
