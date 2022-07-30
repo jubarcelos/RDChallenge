@@ -3,54 +3,11 @@
 const menu = document.querySelector(".menu");
 const menuTwo = document.querySelectorAll(".header__nav_item")[1];
 
-const sanduicheIcon = document.querySelector('.sanduiche');
-const sanduicheMenu  = document.querySelector('.menu__sanduiche');
-const sanduicheBox = document.querySelector('.sanduiche__container');
-const navMenu = document.querySelector('.header__nav');
-const closeBtn = document.querySelector('.sanduiche_close-btn');
-
-function changeToExitIcon() {
-  sanduicheIcon.style.display = 'none';
-  closeBtn.style.display = 'flex';
-}
-
-function changeToSanduicheIcon() {
-  sanduicheIcon.style.display = 'flex';
-  closeBtn.style.display = 'none';
-}
-
-function openSanduicheMenu() {
-  sanduicheMenu.style.display = 'flex';
-  closeBtn.style.display = 'flex';
-  sanduicheBox.style.display = "flex";
-  navMenu.style.display = "flex";
-}
-
-function closeSanduicheMenu() {
-  sanduicheMenu.style.display = 'none';
-  closeBtn.style.display = 'none';
-  sanduicheBox.style.display = "none";
-  navMenu.style.display = "none";
-}
-
-sanduicheIcon.addEventListener('click', () =>{ 
-  changeToExitIcon();
-  openSanduicheMenu();
-});
-
-closeBtn.addEventListener('click', () =>{ 
-  closeSanduicheMenu();
-  changeToSanduicheIcon();
-});
-
 function handleMenu() {
   menu.classList.toggle("menu_opened");
 }
 
 menuTwo.addEventListener("click", () => handleMenu());
-
-
-
 
 // FORM input select options
 const selectJob = document.querySelector('.select-job');

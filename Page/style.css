@@ -8,20 +8,13 @@
 
 @import url(../Blocks/header/nav/header__nav.css);
 @import url(../Blocks/header/nav/header__nav_item.css);
+@import url(../Blocks/header/nav/header__nav_clicable.css);
 
 @import url(../Blocks/header/menu/menu.css);
 @import url(../Blocks/header/menu/menu_opened.css);
 @import url(../Blocks/header/menu/menu__container.css);
 @import url(../Blocks/header/menu/menu__title.css);
 @import url(../Blocks/header/menu/menu__item.css);
-
-@import url(../Blocks/header/menu/sanduiche/sanduiche.css);
-@import url(../Blocks/header/menu/sanduiche/sanduiche_close-btn.css);
-@import url(../Blocks/header/menu/sanduiche/menu__sanduiche);
-@import url(../Blocks/header/menu/sanduiche/sanduiche__container.css);
-@import url(../Blocks/header/menu/sanduiche/sanduiche_opened.css);
-@import url(../Blocks/header/menu/sanduiche/display_none.css);
-
 
 @import url(../Blocks/button/button.css);
 @import url(../Blocks/button/button__header_blue.css);

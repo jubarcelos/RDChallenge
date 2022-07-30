@@ -1,0 +1,4 @@
+.header__nav_clicable:hover {
+  cursor: pointer;
+  background: var(--cor-off-white);
+}
